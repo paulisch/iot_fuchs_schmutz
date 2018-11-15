@@ -75,10 +75,8 @@
 ------------------------------------------------------------------------------------------------------------
 # Persönliche Eindrücke zur ersten Vorlesung:
 
-Hat mir sehr gut gefallen, Folien waren verständlich
-Mir war nach der Vorlseung nicht klar was alles in das Portfolio gehört
-oder wie es aufgebaut sein soll -> hier wäre eine Folie mit der grundsätzlichen 
-Gliederung für das Portfolio wünschenswert gewesen
+* Hat mir sehr gut gefallen, Folien waren verständlich
+* Mir war nach der Vorlseung nicht klar was alles in das Portfolio gehört oder wie es aufgebaut sein soll -> hier wäre eine Folie mit der grundsätzlichen Gliederung für das Portfolio wünschenswert gewesen
 ------------------------------------------------------------------------------------------------------------
 
 
