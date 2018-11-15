@@ -17,6 +17,7 @@ config.txt bearbeitet (Passwort und Name von WLans)
 Raspberry via Ethernet mit dem FH Netzwerk verbunden -> Raspberry dient nun als WLan Router
 Unter verfügbare Wlan gefunden (dirtyfox) -> login mit gesetztem Passwort (alles gut funktioniert)
 Zugriff auf Raspberry via IP-Adresse UlnoIoT Local Web Portal (hat gut funktioniert) https://192.168.12.1
+login bei node-red -> powerOff modifiziert dass man via node-red ui den raspberry pi herunterfahren kann
 
 ------------------------------------------------------------------------------------------------------
 
