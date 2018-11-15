@@ -1,4 +1,5 @@
 # Lecture #01
+### 15.11.2018
 
 ## What type of programming experience?
 HTL: Java, C#, Praktika
