@@ -27,7 +27,7 @@
 
 
 # Use laptop to google about IoT, find and note down including small description (submit as participation proof at end of class):
-● 3 domains (included areas)
+● 3 domains (included areas) 
 * https://internetofthingsagenda.techtarget.com
 * http://iotlineup.com
 * https://internetofthingswiki.com

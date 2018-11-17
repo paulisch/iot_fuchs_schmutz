@@ -80,7 +80,6 @@ RS232 (1), I2C (2), SPI (3), Onewire(4)
 
 * Ideen:
 - Kaffemaschine umbauen in smart kaffe
-- Gewichtssensor in Toilette 
 
 # IoT Scenario *Home gateways*
 
