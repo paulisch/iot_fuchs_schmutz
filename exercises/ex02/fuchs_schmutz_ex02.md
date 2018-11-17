@@ -28,10 +28,16 @@ Für die Temperaturmessung eine Library suchen. Unter https://github.com/esp8266
 Dann jedoch https://www.arduinolibraries.info/libraries/dallas-temperature genommen.
 
 ## Aufgaben Boris
+Raspberry Pi wieder angesteckt und hochgefahren -> ins WLan verbunden
 Zuerst probiert mit einem Steckbrett und dem ESP8266 und einem Button den Button-Trigger zu bauen
-Auf Frage zu Tobias und Markus jedoch verwenden wir einen Button, der mit kurzen Kabeln direkt am ESP8266 angeschlossen wird:
+Auf Frage zu Tobias und Markus jedoch verwenden wir einen Button, der direkt auf eine Platine aufgelötet ist und der mit kurzen Kabeln direkt am ESP8266 angeschlossen werden kann:
 ![](https://raw.githubusercontent.com/paulisch/iot_fuchs_schmutz/master/exercises/ex02/img/01.jpg)
-Bauen eines Steckbretts mit dem I2C 2 lines display.
+Danach hat alles gut funktioniert, Button war über die Software ansprechbar.
+Nach mehreren Versuchen hat dann der Button dann wenn man ihn drückt den Trigger ausgelöst.
+Bauen eines Steckbretts mit dem I2C 2 lines display. Danach haben wir beide nach einer Library für das Display gesucht.
+Danch habe ich einige einfache Befehle zum ansprechen des Displays probiert, da bei Paul etwas nicht funktioniert hat.
+Problem hierbei war das sich die beiden Librarys (für Display) die wir gefunden und eingebunden haben sich gegenseitig blockiert haben
+Haben dann die Wire Library herausgenommen und es hat funktioniert
 
 Bauen des Systems mit Temperatursensor:
 ![](https://raw.githubusercontent.com/paulisch/iot_fuchs_schmutz/master/exercises/ex02/img/02.jpg)
