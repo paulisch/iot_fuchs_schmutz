@@ -80,12 +80,25 @@ RS232 (1), I2C (2), SPI (3), Onewire(4)
 
 * Ideen:
 - Kaffemaschine umbauen in smart kaffe
+- Überwachungssystem für Haus
 
 # IoT Scenario *Home gateways*
 
 * Working with: Boris, Markus, Hannes
 
 * Sepp hat ein Haus. Er hat sein Haus neuerdings mit Smart Home Komponenten ausgestattet, nämlich mit dem Home Gateway System "HomA - Home Automation".Es ist Winter. Sepp schläft gerade. Die Heizung hält die Temperatur auf 21 °C. Alexa dient als Wecker, welcher um 07.30 Uhr läutet. Gleichzeitig mit dem Wecker werden in Sepp's Zimmer die Rolläden automatisiert nach oben gefahren und das Licht geht an.Alexa fragt Sepp, ob und wann er einen Kaffee will. Sepp sagt: "Ich möchte in 10 min Kaffee trinken." Während Sepp sich fertig macht, macht die Kaffeemaschine frischen Kaffee und es wird das Mediensystem gestartet. Alexa fragt Sepp, ob er lieber Nachrichten oder Musik hören will. Sepp entscheidet sich heute für die Nachrichten. Alexa gibt den Befehl zum Mediensystem weiter. Das Mediensystem erkennt, in welchem Raum sich Sepp aufhält, und gibt dort die Nachrichten wieder. Sepp geht in die Küche. Das Mediensystem erkennt den Raumwechsel und Sepp trinkt seinen fertigen Kaffee. Sepp fährt in die Arbeit. Die Heizung fährt in den Energiesparmodus (17 °C). Licht, Kaffeemaschine und Mediensystem werden gehen in den Ruhemodus. Die Rolläden werden heruntergefahren.Nach einem harten Arbeitstag startet Sepp in einer Pause 30min vor Dienstschluss seine HomA App. Er teilt dem System mit, dass er in ca. 45min zuhause ist. Im Zuge dessen werden sein Auto und auch sein Smart Home vorgeheizt, sodass bei Ankunft ca. 21 °C erreicht werden.
+
+# IoT Scenario *Save SmartHome*
+
+Fabian hat sich ein neues Haus gekauft. Da das Haus schon etwas in die Jahre gekommen ist, hat es keinerlei moderne "Spielerein" verbaut. Nach einiger Zeit bemerkt er, dass er hin und wieder vergisst das Garagentor über Nacht zu schließen. Zudem ist Fabien fürchterlich immer etwas zerstreut da er öfters bis spät in die Nacht arbeiten muss. Dadurch ist es ihm auch schon passiert, dass er seine Terassentüre offen gelassen hat.
+Durch diese Vorkommnisse beschließt Fabian einige Sicherheitsmaßnahmen zu setzten. Er bestellt sich einen Techniker ins Haus und muss leider feststellen das so ein Sicherheitssystem sehr sehr teuer ist. Fabin ist unglücklicherweise immer etwas kanpp bei Kasse und entscheidet sich das Ganze selbst umzusetzten.
+Nach einiger Zeit hat er das System implementiert.
+
+Fabian ist heute erst um 22:00 Uhr mit seiner Arbeit fertig. Er er hat sich gerade fertig fürs Bett geacht und legt sich hin. Er ist sich nicht mehr sicher ob er alle Türen geschlossen hat und checkt mit seiner App die neu verbauten Kameras im Haus. Er sieht in seiner App eine auflistung aller WebCams im Haus. Die Garage ist geschlossen und auch die Terassentüre ist geschlossen. Fabian Kann beruhigt einschlafen.
+Am nächsten Tag bekommt er eine Push-Benachrichtigung auf sein Handy, dass jemand an seiner Haustüre leutet. Er verbindet sich mit dem Lautsprecher und der Kamera die an seiner Tür angebracht sind und checkt wer angeläutet hat. Es ist ein DHL-Lieferant. Fabian teilt ihm mit, dass er das Päckchen unter die Stiege legen soll.
+Zusätzlich hat Fabian die Kameras im Haus auf Bewegungserkennung gestellt. Er bekommt etwas später noch eine Push-Benachrichtigung von seiner Wohnzimmer Kamera. Er checkt sofort seine App. Die Kameras zeichnet ab jetzt alles auf und speichern die Daten. Er sieht das die Nachbarskatzte durch sein Haus läuft, da er vergessen hatte die Terassentür zu schließen als er sein Haus verlassen hat. 
+Nun hat er zusätzlich Kontaktschalter an den Türen und Fenstern angebracht. Diese zeigen ihm von jedem Fenster und von jeder Tür im Haus den aktuellen Status (offen oder geschlossen). 
+
 
 ------------------------------------------------------------------------------------------------------
 
