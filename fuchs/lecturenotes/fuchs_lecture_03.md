@@ -66,28 +66,28 @@ Programme oder Programmteile, die XML-Daten auslesen, interpretieren und ggf. au
 * Title: Open Connectivity Foundation
 
 * Members:
- * Microsoft, intel, cisco, lg, Qualcomm, samsung ..... more than 300
+  * Microsoft, intel, cisco, lg, Qualcomm, samsung ..... more than 300
 
 * Purpose: 
- * Billions of connected devices (devices, phones, computers and sensors) should be able to communicate with one another regardless of manufacturer, operating system, chipset or physical transport. The Open Connectivity Foundation (OCF) is creating a specification and sponsoring an open source project to make this possible.
+  * Billions of connected devices (devices, phones, computers and sensors) should be able to communicate with one another regardless of manufacturer, operating system, chipset or physical transport. The Open Connectivity Foundation (OCF) is creating a specification and sponsoring an open source project to make this possible.
 
- * Zahlreiche namhafte Firmen wie Intel, Samsung, Cisco, Microsoft und Qualcomm haben sich zusammengeschlossen, um die Kommunikation zwischen IoT-Endgeräten zu standardisieren und (noch) ein Industriekonsortium aufzubauen.
- * OCF hatte sich im Februar 2016 als Nachfolgerin des Open Internet Consortium (OIC) neu aufgestellt. 
+  * Zahlreiche namhafte Firmen wie Intel, Samsung, Cisco, Microsoft und Qualcomm haben sich zusammengeschlossen, um die Kommunikation zwischen IoT-Endgeräten zu standardisieren und (noch) ein Industriekonsortium aufzubauen.
+  * OCF hatte sich im Februar 2016 als Nachfolgerin des Open Internet Consortium (OIC) neu aufgestellt. 
 
- * Die konsortiale Organisation möchte Standards schaffen, damit IoT-Endgeräte (Internet of Things) miteinander kommunizieren können, unabhängig vom jeweiligen Chipset und Betriebssystem sowie der Transportschicht. 
+  * Die konsortiale Organisation möchte Standards schaffen, damit IoT-Endgeräte (Internet of Things) miteinander kommunizieren können, unabhängig vom jeweiligen Chipset und Betriebssystem sowie der Transportschicht. 
 
 * Cost:
- * Diamond Member Benefits (Annual Dues: $350,000 USD)
- * Platinum Member Benefits (Annual Dues: Tiered from $5,000 to $50,000 USD**)
- * Gold Member Benefits (Annual Dues: $2,000 USD)
- * Nonprofit Educational Gold Member Benefits (One time fee: $1,000 USD***)
- * Basic Member Benefits (Annual Dues: $0 USD)
+  * Diamond Member Benefits (Annual Dues: $350,000 USD)
+  * Platinum Member Benefits (Annual Dues: Tiered from $5,000 to $50,000 USD**)
+  * Gold Member Benefits (Annual Dues: $2,000 USD)
+  * Nonprofit Educational Gold Member Benefits (One time fee: $1,000 USD***)
+  * Basic Member Benefits (Annual Dues: $0 USD)
 
 ### AllSeen Alliance
 
 * 2016 -> geht in OCF über
 * Die AllSeen Alliance geht auf den Mobilfunkkommunikationsexperten Qualcomm zurück.
- * AllJoyn ist ein Open-Source-Projekt, das ein Programmiergerüst und Kerndienste für die Kommunikation, unabhängig von Produktkategorie, Plattform-, Marken und Verbindungstyp von Geräten und Anwendungen mittels Peer-to-Peer (P2P) Connection bereitstellt. Qualcomm hat das Open-Source-Projekt entwickelt und erstmals 2011 auf dem Mobile World Congress präsentiert.[1]
+  * AllJoyn ist ein Open-Source-Projekt, das ein Programmiergerüst und Kerndienste für die Kommunikation, unabhängig von Produktkategorie, Plattform-, Marken und Verbindungstyp von Geräten und Anwendungen mittels Peer-to-Peer (P2P) Connection bereitstellt. Qualcomm hat das Open-Source-Projekt entwickelt und erstmals 2011 auf dem Mobile World Congress präsentiert.[1]
 * Open-Source-Framework AllJoyn 
 
 ### Lora Alliance (me)
@@ -111,9 +111,6 @@ Programme oder Programmteile, die XML-Daten auslesen, interpretieren und ggf. au
 * Cost:
   * ?
 
-### IEEE
-
-	
 ### Industrial Internet Consortium
 * 258 members (November 2016)
 * founded by AT&T, Cisco, General Electric, IBM and Intel
@@ -153,6 +150,20 @@ Get in contact with Austrian Standards International – Standardisation and Innov
 
 ### IETF
 
+* The Internet Engineering Task Force is an open standards organization, which develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite (TCP/IP).
+
+* Notable members
+  * has no formal membership or membership requirements ( All participants and managers are volunteers, though their work is usually funded by their employers or sponsors.)
+
+* Chairperson
+  * Alissa Cooper (2017- )
+
+* Purpose
+  * Creating voluntary standards to maintain and improve the usability and interoperability of the Internet.
+
+* Access to consortium
+  * A Nominating Committee (NomCom) of ten randomly chosen volunteers who participate regularly at meetings is vested with the power to appoint, reappoint, and remove members of the IESG, IAB, IASA, and the IAOC.
+
 ---------------------------------------------------------------------------------------------------------------------
 
 ### HTTP Post
@@ -162,15 +173,15 @@ Get in contact with Austrian Standards International – Standardisation and Innov
 * “The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things. The protocol is designed for machine-to-machine (M2M) applications such as smart energy and building automation.”
 
 * REST model for small devices
- * Like HTTP, CoAP is based on the wildly successful REST model: Servers make resources available under a URL, and clients access these resources using methods such as GET, PUT, POST, and DELETE.
+  * Like HTTP, CoAP is based on the wildly successful REST model: Servers make resources available under a URL, and clients access these resources using methods such as GET, PUT, POST, and DELETE.
 
 * Example
- * Constrained devices - Implementations for constrained devices are typically written in Cs.
- * Server-side -> Java -> One significant Java-based implementation of CoAP is Californium.
- * Browser-based -> Copper is an extension for Firefox to enable direct access to CoAP resources from a browser.
- * Smartphones -> Some implementations are specifically targeting mobile devices such as smartphones and tablets. These tend to differ between platforms:
- * Commercial implementations
- * zB Homeautomation from IKEA
+  * Constrained devices - Implementations for constrained devices are typically written in Cs.
+  * Server-side -> Java -> One significant Java-based implementation of CoAP is Californium.
+  * Browser-based -> Copper is an extension for Firefox to enable direct access to CoAP resources from a browser.
+  * Smartphones -> Some implementations are specifically targeting mobile devices such as smartphones and tablets. These tend to differ between platforms:
+  * Commercial implementations
+  * zB Homeautomation from IKEA
 
 ### MQTT
 
