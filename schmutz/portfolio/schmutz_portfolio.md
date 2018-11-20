@@ -17,7 +17,7 @@ Furthermore, it is a good idea to keep the students awake during lecture with so
 To sum it up, I was quite overwhelmed in the first place, however as things got clearer to me, I now like the concept of the course.
 
 
-PS: You can find the lecture notes [here](https://github.com/paulisch/iot_fuchs_schmutz/blob/master/schmutz/lecturenotes/lecture01.md).
+PS: You can find the lecture notes [here](../lecturenotes/lecture01.md).
 
 #### Exercise #01
 ##### Lab Outline
