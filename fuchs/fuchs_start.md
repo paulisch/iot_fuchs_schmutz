@@ -77,6 +77,8 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 * Wir haben und einen Termin am Donnerstag nach der Übung ausgemacht, wo wir etwaige offene Übungen dieser Woche erledigen werden. (Wir vermuten, dass wir durch unseren heutigen Rückstand ncoh mehr Rückstand bis Donnerstag anhäufen)
 * Ansonsten hat die Zusammenarbeit wieder sehr gut funktioniert. Dritter Tag war etwas anstrengender.
 
+* Update: Ex3 wurde in der nächsten Übung fertig gemacht. wir haben ein zwei Java-Programme geschrieben (OnOff und TemperaturSimulator) -> hat alles ohne Probleme funktioniert
+
 ---------
 
 # Session 4
