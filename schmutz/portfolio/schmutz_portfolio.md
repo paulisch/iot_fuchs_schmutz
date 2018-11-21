@@ -70,7 +70,7 @@ Regarding **homework**: You can find the 2 ideas in my lecture notes. The first 
 Today's exercise was a bit more advanced than yesterday and it sets up on the findings of the last exercise. As I am more the software type of person, I mostly dealt with writing software in the Arduino IDE making the buttons, WiFi etc. work. As Boris is good at dealing with the hardware stuff we made a good team today. He managed to put the components and cables into the right place and communicated the relevant ports for me. I then used the ports in the software to run the system as a whole. Sometimes it was a bit tricky to find the right library and manage to finally get the code to work but after some trying and cooperating with Boris everything was up and running smoothly.
 I liked today's exercise, although I was really kind of stressed as my head was full from concentrating the whole time.
 
-PS: You can find the exercise notes [here](../../exercises/ex01/fuchs_schmutz_ex02.md).
+PS: You can find the exercise notes [here](../../exercises/ex02/fuchs_schmutz_ex02.md).
 * * *
 
 
@@ -90,38 +90,135 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture03.md).
 #### Exercise #03
 ##### Lab Outline
 * COAP
- * Install simple COAP Arduino library example (use esp32 example, adjust led, and use ESP8266Wifi.h)
- * Explore and switch with Copper4Cr (Chrome developer extension – or old firefox <= 55 with copper extension)
- * Optional: use libcoap binary tools
+   * Install simple COAP Arduino library example (use esp32 example, adjust led, and use ESP8266Wifi.h)
+   * Explore and switch with Copper4Cr (Chrome developer extension – or old firefox <= 55 with copper extension)
+   * Optional: use libcoap binary tools
 * MQTT
- * Install mqtt.fx on your laptop
- * Send and receive with mqtt.fx messages to mosquitto (mqtt server) running on pi
- * Build simulators (use your peferred language and mqtt library or consider ulnoiot's integriot in python)
-  * Temperature sensor simulator
-   * Start temp, end temp, time to linearly rise
-  * Relay switch (like AC) simulator
-   * Showing on and off
-  * Integrator: switch at specific temperature (can be hardcoded)
+   * Install mqtt.fx on your laptop
+   * Send and receive with mqtt.fx messages to mosquitto (mqtt server) running on pi
+   * Build simulators (use your peferred language and mqtt library or consider ulnoiot's integriot in python)
+    * Temperature sensor simulator
+         * Start temp, end temp, time to linearly rise
+    * Relay switch (like AC) simulator
+         * Showing on and off
+    * Integrator: switch at specific temperature (can be hardcoded)
 ---
 First of all, COAP and MQTT are entirely new to me. Today we were a bit slow at doing the exercise. We just managed to do the first part "COAP". The Arduino code was easy to set up. The way "talking" to the ESP8266 was a bit buggy. Boris tried different browsers and finally Chrome worked after several (same) tries. In the end, it was not difficult at all but somehow always when doing things for the first time it requires some effort.
 Also, we started the secon part which is trying MQTT with the raspberry pi. The simulator is not yet implemented. As things work so far I think we will make good progress next time.
 I liked the first insight into IoT protocols. It feels more like doing business-related standardized tasks which are of more practical use than exercises before and also allow greater opportunities in shorter programs. In my opinion that is the goal of the course anyway - to start from zero and slowly develop to finally be able to do more complex projects while understanding everything from the ground up.
 
-PS: You can find the exercise notes [here](../../exercises/ex01/fuchs_schmutz_ex03.md).
+PS: You can find the exercise notes [here](../../exercises/ex03/fuchs_schmutz_ex03.md).
 PPS: I am definitely sure, that the simulation task of MQTT will be great for me as I see myself as the software developing type.
 
 # Session #04
 ### 21.11.2018
 
 #### Lecture #04
-TODO
+The lecture today was (by now) my favorite lecture regarding IoT. At the beginning we did a small retrospect which made me realize that we already know useful things. Furthermore, the style of lecturing - as I mentioned in my last report in Session #03 - is now somehow ordinary. I also believe, that it's more effective than traditional lecturing. Anyway, today was more exciting as we didn't cover that many things (in my opinion) which was less stressful and made things more memorable. It was nice, to not google things from the beginning on, when we did the questions about "Scaling and Testing". What I liked most about that topic, was open discussion as you wrote down notes about it live on the screen. It remembered me a bit of school back then, when the teacher was writing notes on the board. Which is a good thing. I liked following your speech/question answering/discussion with us and the notes being written down.
+
+To sum it up, I enjoyed todays lecture and the way we progress and build things on top of other related knowledge we already discovered.
+
+
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture04.md).
 
 #### Exercise #04
 ##### Lab Outline
-TODO
+
+- MongooseOS
+  - Build system: Read and write GPIO (implement in hardware)
+  - Advanced tutorial: temperature sensor
+  - Optional: Connect to local MQTT server
+- **HW**, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
+  - What is fog computing?
+  - What is the edge (regarding IoT)?
+  - What are the different categories of the presented open source frameworks?
+  - Which framework did you like best and why?
+
 ---
 
+In the lab Boris and I focused more on exercise #03 as we didn't manage to finish that last time. We started with the MQTT task. I did the part having to do with [temperature simulation](../../exercises/ex03/java/TemperatureSim/src/at/fhhgb/mc/iot/ex03/Main.java) and Boris the  [integrator part](../../exercises/ex03/java/on_off_simulator/src/on_off_simulator/main.java) while also worked together on both projects at the same time.
 
-PS: You can find the exercise notes [here](../../exercises/ex01/fuchs_schmutz_ex04.md).
+Also, we started to work on MongooseOS. We will continue that in the next session. My first impression was very good as the tool looks very promising. The tutorial on https://mongoose-os.com/docs/quickstart/setup.md is very useful and we stopped at "8. Add device to the mDash management dashboard". So far I am confident that next time we will quickly be able to build a nice (hardware-)related solution.
+
+The MQTT tasks today showed me (in spite of the fact, that it was just simulators), that MQTT is a really useful protocol/tool to exchange data and trigger events in a complex systems because many low-level/-energy devices can "speak" MQTT and react on certain messages. Also, MQTT is obviously often used in the world of IoT (for example Node RED). Therefore, I really focused on MQTT as it will probably be an important part in the future of this course and for personal projects.
+
+
+
+##### Homework (watch [IoT Open Source Integration Comparison](https://www.youtube.com/watch?v=uOrLOgsCpNE))
+
+###### What is fog computing?
+
+TODO
+
+
+
+###### What is the edge (regarding IoT)?
+
+TODO
+
+
+
+###### What are the different categories of the presented open source frameworks?
+
+TODO
+
+
+
+###### Which framework did you like best and why?
+
+TODO
+
+
+
+PS: You can find the exercise notes [here ex03](../../exercises/ex03/fuchs_schmutz_ex03.md) and [here ex04](../../exercises/ex04/fuchs_schmutz_ex04.md).
+
+
+
+
+
+# Session #05
+
+### 22.11.2018
+
+#### Lecture #05
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture05.md).
+
+
+
+#### Project #01
+
+##### Project Outline
+
+* teams of 2 (exceptions 3)
+* Present working system with 2-3 Wemos and gateway (the use of mqtt is obligatory, no direct communication between nodes!) using all (and more) what we have explored so far
+* Use custom integrator or Node-RED
+* Make use of 3 different sensors and two actors
+* Design a scenario (giving this project a frame and being able to play through it in 5 minutes
+
+---
+
+TODO
+
+
+
+PS: You can find the project notes [here](../../exercises/proj01/fuchs_schmutz_proj01.md).
+
+
+
+#### Exercise #05
+
+##### Lab Outline
+
+* TODO
+
+---
+
+TODO
+
+
+
+PS: You can find the exercise notes [here](../../exercises/ex05/fuchs_schmutz_ex05.md).

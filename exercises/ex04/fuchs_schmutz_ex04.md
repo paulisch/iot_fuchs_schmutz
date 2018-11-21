@@ -6,7 +6,7 @@
   * Build system: Read and write GPIO (implement in hardware)
   * Advanced tutorial: temperature sensor
   * Optional: Connect to local MQTT server
-* HW, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
+* **HW**, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
   * What is fog computing?
   * What is the edge (regarding IoT)?
   * What are the different categories of the presented open source frameworks?
@@ -15,10 +15,10 @@
 ---
 
 ## Aufgaben Paul
-TODO
+For **HW** see portfolio notes [here](../../schmutz/portfolio/schmutz_portfolio.md) @Session #04 > Exercise #04 > Homework.
 
 ## Aufgaben Boris
-TODO
+
 
 ## Aufgaben gemeinsam
 Herunterladen von Mongoose https://mongoose-os.com/docs/quickstart/setup.md
