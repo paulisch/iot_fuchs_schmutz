@@ -27,6 +27,12 @@ mqtt.fx installiert
 mqtt profil anlegen (für raspberry) -> 192.168.12.1 -> funktioniert nicht
 fehler -> http weg bei ip adresse -> hat funktioniert (via connect)
 
+**MQTT**
+Einrichten des Java Workspaces für die Simulatorprojekte
+Anlegen eines Java Projektes für Temperatur-Simulator
+
+Temperatur-Simulator schickt laufend Temperaturen zwischen 20 und 30 °C
+Siehe [Java Temperatur-Simulator](./java/TemperatureSim)
 
 ## Aufgaben Boris
 rechere Copper4Cr -> Copper for Chrome -> A Chrome app+extension to browse the Internet of Things
@@ -38,6 +44,16 @@ in chrome hat es funktioniert
 
 rechere zu verbindungsproblemen zwischen mqtt und pi -> https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/
 
+**MQTT**
+Anlegen eines Java Projektes für den On/Off-Simulator
+
+Vorerst nur schicken eines On/Off Werts (0 oder 1)
+
+Erweiterung im Integrierung des Temperatur-Simulators
+
+Siehe [Java OnOff](./java/on_off_simulator)
+
+Auf das Topic "stateOnOff" wird bei Überschreitung von 25 °C eine "1" gesendet
 
 ## Aufgaben gemeinsam
 Vorbereitungen:Raspberry angeschlossen und hochgefahren -> ESP8266 via usb angeschlossen
@@ -58,6 +74,7 @@ Request von Copper
 ![coap_esp8266_serialmonitor](./img/coap_esp8266_serialmonitor.PNG)
 Reaktion von ESP8266 (LED wird dadurch ein/ausgeschalten)
 
+**MQTT**
 Anschließend MQTT getestet. Auf beiden Rechnern MQTT.fx installiert und mit Pi verbunden.
 
 ![mqtt_publish](./img/mqtt_publish.PNG)
@@ -66,3 +83,20 @@ Auf einem Rechner wird eine Nachricht gepublished
 ![mqtt_subscribe](./img/mqtt_subscribe.PNG)
 Auf der anderen Seite wird ein Subscribe zu diesem Thema "publish01" durchgeführt und man erhält Nachrichten
 
+Suchen nach einer Java Library für MQTT -> Eclipse Paho
+http://central.maven.org/maven2/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.0/
+Download der .jar Datei und Speichern in einem "lib" Verzeichnis
+
+Grundlage ist der Sample Code auf https://www.eclipse.org/paho/clients/java/
+
+Die Projekte werden gemeinsam getestet.
+
+Paul startet das Projekt mit den Temperaturwerten [Java Temperatur-Simulator](./java/TemperatureSim)
+
+Boris startet das Projekt mit dem OnOffSwitch, der bei Überschreitung von 25 °C einen Befehl schickt [Java OnOff](./java/on_off_simulator)
+
+![mqtt_temperature00](./img/mqtt_temperature00.PNG)
+Überschreiten der Temperatur
+
+![mqtt_temperature01](./img/mqtt_temperature01.PNG)
+Daraufhin wird ein Befehl "1" gesendet
