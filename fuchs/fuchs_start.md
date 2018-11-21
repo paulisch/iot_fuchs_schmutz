@@ -85,17 +85,22 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 
 ## Lecture 4
 
-Protokoll:
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_04.md
 
 ### Persönliche Eindrücke zur vierten Vorlesung:
 
-
+* Wieder sehr interessante Vorlesung. Mir hat besonders der zweite Teil (IoT Frameworks) gefallen, da ich hier wieder einen Bezug zu meinen persönlichen Projekten herstellen konnte. So konnte ich in kurzer Zeit sehr viele Frameworks kennen lernen. Sehr starker Praxisbezug -> konnte das meiste mitnehmen.
+* Im ersten Teil (Scaling and Testing) waren auch einige Punkte (zB Can you update them all at once?) über die ich bis jetzt noch nicht nachgedacht haben -> habe hier auch einige brauchbare Infos sammeln können. Zumindest das man die ein oder andere Sache im Hinterkopf behält.
 
 ## Exercise 4
 
-Protokoll:
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/ex04/fuchs_schmutz_ex04.md
 
 ### Persönliche Eindrücke zur vierten Übung:
+
+* Haben noch einen Rückstand von Übung 3 aufholen müssen und somit erst etwas später mit Übung 4 starten können. Im Moment läuft unser Zeitplan nicht planmäßig, deswegen müssen wir am Donnerstag nacharbeitn.
+* Der start von Übung 4 ist uns um einiges leichter von der Hand gegangen als bei Übung 3. Wir waren schnell in der Materie und konnten die einzelnen Aufgaben sehr schnell lösen. Zusammenarbeit hat wieder sehr gut funktioniert und auch sonst ist es zu keinerlei Verzögerungen/Problemen gekommen.
+* Auch der Spaßfaktor war bei Übung 4 für uns größer als bei Übung 3, da es bei Übung 3 mit CoAP und MQTT zu Problemen gekommen ist und das installieren der einzelnen Komponenten etwas gehackt hat. MongooseOS war uns von anfang an sympatischer -> schnelle "Installation" und die Handhabung ist bis jetzt super.
 
 ---------
 
