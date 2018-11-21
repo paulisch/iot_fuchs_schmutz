@@ -10,11 +10,11 @@
  – Install mqtt.fx on your laptop
  – Send and receive with mqtt.fx messages to mosquitto (mqtt server) running on pi
  – Build simulators (use your peferred language and mqtt library or consider ulnoiot's integriot in python)
-  ● Temperature sensor simulator
+    ● Temperature sensor simulator
    – Start temp, end temp, time to linearly rise
-  ● Relay switch (like AC) simulator
+    ● Relay switch (like AC) simulator
    – Showing on and off
-  ● Integrator: switch at specific temperature (can be hardcoded)
+    ● Integrator: switch at specific temperature (can be hardcoded)
 
 ---
 
@@ -52,6 +52,17 @@ versuche mit endpoint coap://192.168.12.146:5683/light -> 4.04 not found
 fehlersuche, wir wissen nicht wie man sich mit dem esp8266 verbindet
 haben jetzt mehrmals das gleiche probiert und nach einigen versuchen hat es funktioniert
 
+![CoAP_copper](./img/CoAP_copper.PNG)
+Request von Copper
 
+![coap_esp8266_serialmonitor](./img/coap_esp8266_serialmonitor.PNG)
+Reaktion von ESP8266 (LED wird dadurch ein/ausgeschalten)
 
+Anschließend MQTT getestet. Auf beiden Rechnern MQTT.fx installiert und mit Pi verbunden.
+
+![mqtt_publish](./img/mqtt_publish.PNG)
+Auf einem Rechner wird eine Nachricht gepublished
+
+![mqtt_subscribe](./img/mqtt_subscribe.PNG)
+Auf der anderen Seite wird ein Subscribe zu diesem Thema "publish01" durchgeführt und man erhält Nachrichten
 
