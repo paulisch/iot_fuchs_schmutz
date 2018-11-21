@@ -149,25 +149,56 @@ The MQTT tasks today showed me (in spite of the fact, that it was just simulator
 
 ###### What is fog computing?
 
-TODO
+=Edge computing
+
+Part of Hybrid Integration Platfrom (HIP)
+
+Means device-to-device communication, not only communication with the cloud
+
+The cloud is not always the central logic
+
+Reason: keep the data closer "to the edge"
+
+![Fog computing](./img/20181121_fogcomputing.PNG)
+
+Add logic to the local gateway or devices
+
+* local control
+* more reliable
+* less traffic to the cloud
 
 
 
 ###### What is the edge (regarding IoT)?
 
-TODO
+Integrating edge devices, important for IoT, part of Hybrid Integration Platfrom (HIP)
+
+![HIP](./img/20181121_hip.PNG)
+
+
+
+The edge is the local part of IoT, which is not the cloud but local integration regarding gateway and devices. That means communication between the devices and a gateway independent from the cloud.
 
 
 
 ###### What are the different categories of the presented open source frameworks?
 
-TODO
+Eclipse Kura + Apache Camel: for developers (writing code); Focus: IoT Gateway
+
+Node-RED: for developers / integration specialists; Focus: Integration on IoT Gateway
+
+Flogo: for developers / integration specialists; Focus: Integration on IoT Gateway and very lightweight edge applications
 
 
 
 ###### Which framework did you like best and why?
 
-TODO
+--> Flogo
+
+* It is lightweight and compared to Node-RED it is suitable for really basic hardware
+* Less dependencies compared to Eclipse Kura and Node-RED
+* Even if you are more flexible with Eclipse Kura (full code control) you can still do a lot of things with Flogo
+* Quick build process and small output sizes
 
 
 
