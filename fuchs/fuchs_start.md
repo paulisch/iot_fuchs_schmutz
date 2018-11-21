@@ -77,5 +77,25 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 * Wir haben und einen Termin am Donnerstag nach der Übung ausgemacht, wo wir etwaige offene Übungen dieser Woche erledigen werden. (Wir vermuten, dass wir durch unseren heutigen Rückstand ncoh mehr Rückstand bis Donnerstag anhäufen)
 * Ansonsten hat die Zusammenarbeit wieder sehr gut funktioniert. Dritter Tag war etwas anstrengender.
 
+---------
+
+# Session 4
+
+## Lecture 4
+
+Protokoll:
+
+### Persönliche Eindrücke zur vierten Vorlesung:
+
+
+
+## Exercise 4
+
+Protokoll:
+
+### Persönliche Eindrücke zur vierten Übung:
+
+---------
+
 
 
