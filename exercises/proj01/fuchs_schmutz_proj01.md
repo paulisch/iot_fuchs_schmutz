@@ -9,6 +9,7 @@
 ---
 
 ## Aufgaben Paul
+
 ### MQTT für MSP8266
 
 Recherche für MQTT für MSP8266
@@ -16,6 +17,16 @@ Recherche für MQTT für MSP8266
 Download von MQTT Client Library: https://github.com/knolleary/pubsubclient/releases/tag/v2.7
 
 pubsubclient-2.7.zip Datei in Arduino IDE als Library hinzufügen
+
+Sample Code auf https://github.com/knolleary/pubsubclient/blob/master/examples/mqtt_esp8266/mqtt_esp8266.ino testen
+
+In folgenden zwei Bildern wird dargestellt, dass die Funktionsweise der MQTT Messages aufrecht ist:
+
+![mqttdemo_esp01](./img/mqttdemo_esp01.png)
+
+
+
+![mqttdemo_esp02](./img/mqttdemo_esp02.png)
 
 
 
@@ -113,4 +124,3 @@ Siehe Sample Programm [hier](./code/touchSwitch/touchSwitch.ino)
 
 
 ## Aufgaben gemeinsam
-TODO
