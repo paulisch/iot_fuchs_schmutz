@@ -104,5 +104,37 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 
 ---------
 
+# Session 5
+
+## Lecture 5
+
+Protokoll: 
+
+### Persönliche Eindrücke zur fünften Vorlesung:
+
+* warte auf upload der Vorlesung, da ich heute in der Vorlesung leider gefehlt habe
+
+## Exercise 5
+
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/ex05/fuchs_schmutz_ex05.md
+
+### Persönliche Eindrücke zur fünften Übung:
+
+* Zuerst haben wir das MongooseOS Tutorial und das Advanced Tutorial von Übung 4 fertiggestellt -> keine Probleme aufgetreten. Waren hier auch sehr schnell fertig. Sind dann direkt weiter zu Übung 5.
+* Übung 5 -> haben mit Node Red gearbeiten -> ist sehr leicht zu benutzen und bietet einige tolle Features. über den raspberry pi kann man direkt darauf zugreifen. sonst müsste man dies erst implementieren, ist aber bereits auf unserem pi integriert. 
+* Read temperature sensor and react -> war ebenfalls sehr schnell erledigt, mit node red kann man wirklick sehr gut und schnell arbeiten -> werdeich mir wiederum für persönliche projekte merken.
+* Haben dann direkt mit unserem ersten Projekt angefangen. Haben gemeinsam beschlossen, dass wir einen Teil meiner Story (SmartHome Security) umsetzten. Wir machen eine kleine Alarmanlage, sobald jemand durch eine Lichtschranke geht wird der Alarm (LED+Buzzer) ausgelöst. Alarmanlage kann zusätzlich via TouchButton ein oder ausgeschalten werden.
+* Zusammenarbeit mit Paul hat wieder sehr gut funktioniert und auch so sind keine Probleme aufgetreten. Das Projekt ist bis jetzt wirklich interessant. Besonders das "herumprobieren" mit den einzelnen Sensoren und dann daraus die eigene Idee umsetzten. -> wirklich eine coole Sache 
+* Heute ist unser Tag wo wir sehr Vieles von dieser Woche aufholen wollen, also sitzen wir sicher noch eine Zeit -> Aber es macht zumindest Spaß. :-)
+
+noch zu erledigen: 
+
+HW, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
+– What is fog computing.
+– What is the edge (regarding IoT)?
+– What are the different categories of the presented open source frameworks?
+– Which framework did you like best and why?
+
+---------
 
 
