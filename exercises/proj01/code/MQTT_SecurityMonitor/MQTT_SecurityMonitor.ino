@@ -6,6 +6,14 @@ const char* password = "fuchsschmutz";
 const char* mqtt_server = "192.168.12.1";
 const char* inTopic = "testin";
 const char* outTopic = "testout";
+const int touchPin = D5;     
+const int ledPinRed =  D1;
+const int ledPinGreen =  D2;
+const int buzzerPin = A0;
+int buttonState = 0;
+int lastbuttonstate = 0;
+int systemstatus = 0;
+int alarmOn = 0;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -22,13 +30,25 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
   Serial.println();
 
-  // Switch on the LED if an 1 was received as first character
-  if ((char)payload[0] == '1') {
-    //digitalWrite(BUILTIN_LED, LOW);   // Turn the LED on (Note that LOW is the voltage level
-    // but actually the LED is on; this is because
-    // it is active low on the ESP-01)
-  } else {
-    //digitalWrite(BUILTIN_LED, HIGH);  // Turn the LED off by making the voltage HIGH
+  if (strcmp(topic, "systemstatus") == 0){   
+    if ((char)payload[0] == '1') {
+      systemstatus = 1;
+      digitalWrite(ledPinGreen, HIGH);
+      digitalWrite(ledPinRed, LOW);
+    } else {
+      systemstatus = 0;
+      alarmOn = 0;
+       digitalWrite(ledPinGreen, LOW);
+       digitalWrite(ledPinRed, LOW);
+    }
+  }
+  
+  if (strcmp(topic, "alarm") == 0){   
+    if ((char)payload[0] == '1'&& systemstatus == 1) {
+      alarmOn = 1;
+    } else {
+       alarmOn = 0;
+    }
   }
 }
 
@@ -42,10 +62,13 @@ void reconnect() {
     // Attempt to connect
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
+      client.subscribe("systemstatus");
+      client.subscribe("alarm");
+      
       // Once connected, publish an announcement...
-      client.publish(outTopic, "hello world");
+      client.publish("devicestatus", "hello world");
       // ... and resubscribe
-      client.subscribe(inTopic);
+      
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -58,6 +81,9 @@ void reconnect() {
 
 void setup(void)
 {
+  
+  setupLED();
+  setupTouch();
   Serial.begin(115200);
 
   delay(10);
@@ -91,21 +117,57 @@ void setup(void)
 
 void loop(void)
 {
+  lastbuttonstate = buttonState;
+  buttonState = digitalRead(touchPin);
+  
+  if (buttonState == HIGH && lastbuttonstate != buttonState) {
+    if (systemstatus == 1){
+      client.publish("systemstatus", "0");
+    } else {
+      client.publish("systemstatus", "1");
+    }  
+  } else {
+    
+  }
+
+  if (alarmOn == 1) {
+    digitalWrite(ledPinRed, HIGH);
+    digitalWrite(ledPinGreen, LOW);
+    analogWrite (buzzerPin, 100);
+  }else {
+    analogWrite (buzzerPin, 0);
+    if (systemstatus == 1){
+      digitalWrite(ledPinGreen, HIGH);
+      digitalWrite(ledPinRed, LOW);
+    }else{
+      digitalWrite(ledPinGreen, LOW);
+      digitalWrite(ledPinRed, LOW);
+    }
+  }
+  
+  
   if (!client.connected()) {
     reconnect();
   }
   client.loop();
-
-  long now = millis();
-  if (now - lastMsg > 10000) {
-    lastMsg = now;
-    ++value;
-    snprintf (msg, 50, "hello world #%ld", value);
-    Serial.print("Publish message: ");
-    Serial.println(msg);
-    client.publish(outTopic, msg);
-  }
+  
   delay(100);
+}
+
+void setupLED(void)
+{
+  pinMode(ledPinGreen, OUTPUT);
+  pinMode(ledPinRed, OUTPUT);
+}
+
+void setupTouch(void)
+{
+  pinMode(touchPin, INPUT);  
+}
+
+void setupBuzzer(void)
+{
+  pinMode (buzzerPin, OUTPUT);
 }
 
 
