@@ -11,6 +11,8 @@ int systemStatus = 0;
 int alarm = 0;
 
 int Photo_Pin = D2;
+int Laser_Pin = D1;
+int PhotoResistor_Pin = A0;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -67,6 +69,8 @@ void reconnect() {
 
 void setup(void)
 {
+  pinMode(Laser_Pin, OUTPUT);
+  pinMode(PhotoResistor_Pin, INPUT);
   pinMode(Photo_Pin, INPUT);
   Serial.begin(115200);
 
@@ -106,12 +110,21 @@ void loop(void)
   }
   client.loop();
 
+  //Turn on laser
+  digitalWrite(Laser_Pin, LOW);
+
   if (systemStatus == 1) {
     int photoVal=digitalRead(Photo_Pin);
-    int photoResVal=1; //TODO: digitalRead
+    int photoResVal=analogRead(PhotoResistor_Pin);
+
+    //Serial.print("Photo interrupter: ");
+    //Serial.println(photoVal);
+
+    //Serial.print("Photo resistor: ");
+    //Serial.println(photoResVal);
 
     // If alarm detected
-    if (photoVal == 0 || photoResVal == 0) {
+    if (photoVal == 0 || photoResVal > 400) {
       if (alarm == 0) {
         alarm = 1;
         Serial.println("Sending alarm");

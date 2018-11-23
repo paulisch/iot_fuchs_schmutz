@@ -9,7 +9,7 @@ const char* outTopic = "testout";
 const int touchPin = D5;     
 const int ledPinRed =  D1;
 const int ledPinGreen =  D2;
-const int buzzerPin = A0;
+const int buzzerPin = D3;
 int buttonState = 0;
 int lastbuttonstate = 0;
 int systemstatus = 0;
@@ -133,9 +133,12 @@ void loop(void)
   if (alarmOn == 1) {
     digitalWrite(ledPinRed, HIGH);
     digitalWrite(ledPinGreen, LOW);
-    analogWrite (buzzerPin, 100);
+    //digitalWrite(buzzerPin, HIGH);
+    pinMode (buzzerPin, OUTPUT);
+    tone(buzzerPin, 1000);
   }else {
-    analogWrite (buzzerPin, 0);
+    noTone(buzzerPin);
+    pinMode (buzzerPin, INPUT);
     if (systemstatus == 1){
       digitalWrite(ledPinGreen, HIGH);
       digitalWrite(ledPinRed, LOW);
@@ -169,5 +172,3 @@ void setupBuzzer(void)
 {
   pinMode (buzzerPin, OUTPUT);
 }
-
-
