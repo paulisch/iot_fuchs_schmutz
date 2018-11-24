@@ -110,6 +110,10 @@ I liked the first insight into IoT protocols. It feels more like doing business-
 PS: You can find the exercise notes [here](../../exercises/ex03/fuchs_schmutz_ex03.md).
 PPS: I am definitely sure, that the simulation task of MQTT will be great for me as I see myself as the software developing type.
 
+
+
+
+
 # Session #04
 ### 21.11.2018
 
@@ -117,8 +121,6 @@ PPS: I am definitely sure, that the simulation task of MQTT will be great for me
 The lecture today was (by now) my favorite lecture regarding IoT. At the beginning we did a small retrospect which made me realize that we already know useful things. Furthermore, the style of lecturing - as I mentioned in my last report in Session #03 - is now somehow ordinary. I also believe, that it's more effective than traditional lecturing. Anyway, today was more exciting as we didn't cover that many things (in my opinion) which was less stressful and made things more memorable. It was nice, to not google things from the beginning on, when we did the questions about "Scaling and Testing". What I liked most about that topic, was open discussion as you wrote down notes about it live on the screen. It remembered me a bit of school back then, when the teacher was writing notes on the board. Which is a good thing. I liked following your speech/question answering/discussion with us and the notes being written down.
 
 To sum it up, I enjoyed todays lecture and the way we progress and build things on top of other related knowledge we already discovered.
-
-
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture04.md).
 
@@ -143,8 +145,6 @@ Also, we started to work on MongooseOS. We will continue that in the next sessio
 
 The MQTT tasks today showed me (in spite of the fact, that it was just simulators), that MQTT is a really useful protocol/tool to exchange data and trigger events in a complex systems because many low-level/-energy devices can "speak" MQTT and react on certain messages. Also, MQTT is obviously often used in the world of IoT (for example Node RED). Therefore, I really focused on MQTT as it will probably be an important part in the future of this course and for personal projects.
 
-
-
 ##### Homework (watch [IoT Open Source Integration Comparison](https://www.youtube.com/watch?v=uOrLOgsCpNE))
 
 ###### What is fog computing?
@@ -167,19 +167,13 @@ Add logic to the local gateway or devices
 * more reliable
 * less traffic to the cloud
 
-
-
 ###### What is the edge (regarding IoT)?
 
 Integrating edge devices, important for IoT, part of Hybrid Integration Platfrom (HIP)
 
 ![HIP](./img/20181121_hip.PNG)
 
-
-
 The edge is the local part of IoT, which is not the cloud but local integration regarding gateway and devices. That means communication between the devices and a gateway independent from the cloud.
-
-
 
 ###### What are the different categories of the presented open source frameworks?
 
@@ -189,8 +183,6 @@ Node-RED: for developers / integration specialists; Focus: Integration on IoT Ga
 
 Flogo: for developers / integration specialists; Focus: Integration on IoT Gateway and very lightweight edge applications
 
-
-
 ###### Which framework did you like best and why?
 
 --> Flogo
@@ -199,8 +191,6 @@ Flogo: for developers / integration specialists; Focus: Integration on IoT Gatew
 * Less dependencies compared to Eclipse Kura and Node-RED
 * Even if you are more flexible with Eclipse Kura (full code control) you can still do a lot of things with Flogo
 * Quick build process and small output sizes
-
-
 
 PS: You can find the exercise notes [here ex03](../../exercises/ex03/fuchs_schmutz_ex03.md) and [here ex04](../../exercises/ex04/fuchs_schmutz_ex04.md).
 
@@ -214,11 +204,22 @@ PS: You can find the exercise notes [here ex03](../../exercises/ex03/fuchs_schmu
 
 #### Lecture #05
 
-TODO
+The lecture of today was not like an ordinary lecture. We had a guest named Ruben and also we did a live-demo. Of course you can't design a lecture like this each and every time, but still - variety in lecturing makes it interesting. We didn't cover that many things, however I can apply the few things we learned in the lab. The live demo about Node-RED was very useful for figuring out how this kind of integrator works which we could use for the exercise later. Furthermore, the work of Ruben was highly interesting to me as I like to build robots, too.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture05.md).
 
+#### Exercise #05
 
+##### Lab Outline
+
+* Node-RED
+  * Build system: Read temperature sensor and react (use MQTT simulators)
+
+---
+
+In the lab we rebuilt the system of a previous exercise which had to do with a temperature simulator. When temperature exceeds or undercuts a certain value there will be a reaction built in Node-RED. Together with my colleague Boris we tried out building the Node-RED project and running the previous temperature rising project and we quickly had a working solution as the tutorial in the lecture was very useful.
+
+PS: You can find the exercise notes [here](../../exercises/ex05/fuchs_schmutz_ex05.md).
 
 #### Project #01
 
@@ -232,24 +233,50 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture05.md).
 
 ---
 
-TODO
+The main task of today was the project work. After discussing with you about the scope and topic of Boris' and my project, we were able to quickly get started. 
 
+To read about the topic of our project, check the [project notes](../../exercises/proj01/fuchs_schmutz_proj01.md).
 
+At first, we searched for all the sensors and actors we wanted to include in the project. Most of them were new for us to use, so we searched for the requirements for them (e. g. voltage) and how to use them and if they cover our requirements. Therefore, we worked on building demo projects for some hours. We split the tasks in two and Boris checked some of the devices as well as me myself. Without mentionable troubles, after that everything was prepared for the "real" scenario.
+
+Before building the whole project, I was searching for a solution, how MQTT works on ESP8266 and I quickly found a library and a working example.
+
+In parallel, Boris was developing the program for the "alarm monitor" and I was working on the Node-RED integrator and thinking about the necessary MQTT topics. That process was slow, as we still had to get used to all the new tools. Step by step we were then able to switch the alarm monitor on and off. That developing process continued until I finally also built the "alarm devices" which can trigger the alarm.
+
+Making the project work as a whole was effortful as we sometimes had trouble with multiple minor mistakes, like for example wrong pins or wrong logic in the integrator that didn't sent the right MQTT messages. Also the buzzer was hard to implement right. Once it played a tone, it was not stopping anymore, even if we turned it off with the right command.
+
+However, after all the problems we managed to finish the project. As we did not finish on that day, I checked some bugs and added a missing sensor to the system and tested it. And it was running smoothly. It was really nice to see, that all the hardware and software were actually doing what the should do and play around with that. It was definitely hard work to reach the project goals, however Boris and I learned a lot and in my opinion I am now able to do similar and even more complex projects more efficiently and in a shorter period of time.
 
 PS: You can find the project notes [here](../../exercises/proj01/fuchs_schmutz_proj01.md).
 
 
 
-#### Exercise #05
 
-##### Lab Outline
 
-* TODO
+# Session #06
 
----
+### 27.11.2018
+
+#### Lecture #06
 
 TODO
 
 
 
-PS: You can find the exercise notes [here](../../exercises/ex05/fuchs_schmutz_ex05.md).
+PS: You can find the lecture notes [here](../lecturenotes/lecture06.md).
+
+
+
+#### Exercise #06
+
+##### Lab Outline
+
+- TODO
+
+------
+
+TODO
+
+
+
+PS: You can find the exercise notes [here](../../exercises/ex06/fuchs_schmutz_ex06.md).
