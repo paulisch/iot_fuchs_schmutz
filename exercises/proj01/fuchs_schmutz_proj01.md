@@ -26,7 +26,9 @@ Sofort wird ein Alarm ausgelöst. Am Korridor beginnt ein **Lautsprecher** mit o
 
 Nachdem die Polizei den Serien-Einbrecher weggebracht hat, geht Max zurück ins Schlafzimmer. Er drückt den **Button** und der **Lautsprecher** ist aus und die **LED** leuchtet nicht mehr - der Alarm ist deaktiviert. Inzwischen ist es 05:30 Uhr und Max wäre nun ohnehin aufgestanden. Nach Abklären mit der Versicherung wird ein neues Fenster montiert und Max stellt die richtige Verkabelung des Sensors sicher.
 
-Das System ist wieder voll einsatzbereit und Max setzt auch in Zukunft auf die Sicherheit, die sein Alarmanlagen-System gewährleistet.
+Um auf Nummer Sicher zu gehen, führt Max einen Probealarm durch. Dazu geht er zu seinem **PC**, der mit dem Gateway verbunden ist und eine grafische Oberfläche bereitstellt. Max drückt auf einen **Switch**, der die Alarmanlage aktiviert. Die **LED** leuchtet daraufhin <span style="color: green;">grün</span>. Danach betätigt er den Button "TEST ALARM". Die **LED** leuchtet <span style="color: red;">rot</span> und der **Lautsprecher** beginnt zu ertönen. Die Alarmanlage funktioniert. Nachdem sich Max darüber vergewissert hat, schaltet er den Alarm und die Alarmanlage über den **Switch** wieder aus.
+
+Das System ist wieder voll einsatzbereit und Max setzt auch in Zukunft auf die Sicherheit, die sein Alarmanlagen-System "SavePI Home Security" gewährleistet.
 
 
 
