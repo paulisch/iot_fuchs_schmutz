@@ -103,6 +103,36 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 * Auch der Spaßfaktor war bei Übung 4 für uns größer als bei Übung 3, da es bei Übung 3 mit CoAP und MQTT zu Problemen gekommen ist und das installieren der einzelnen Komponenten etwas gehackt hat. MongooseOS war uns von anfang an sympatischer -> schnelle "Installation" und die Handhabung ist bis jetzt super.
 
 ---------
+HW, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
+
+über 300 iot platforms
+
+– What is fog computing.
+  * auch edge-computing genannt; man hat nicht immer eine kommunikation zwischen cloud und allen geräten in der umgebung -> aber oft hat man eine gerät zu gerät kommmunikation --> deswegen ... keep date closer to the edge; logik kann d´nicht immer in der cloud sein -> warum: probleme vermeiden -> schlechte verbindung von cloud zu geräten oder die kosten der kommunikation
+  * moderner ansatz: logik nicht nur in der cloud sondern auch auf dem gateway und auf den devices (vorteile -> local control, less traffic, more reliable)
+
+– What is the edge (regarding IoT)?
+  * kern -> run the business (cloud systems, processes, APIs,..); edge -> change the business -> jedes mögliche gerät was mit anderen geräten kommuniziert (smartphone, autos, menschen, interfaces...)
+
+– What are the different categories of the presented open source frameworks?
+  * eclipse kura -> iot gateway; eigentlich nur für entwickler gedacht (nicht so einfach zu handhaben); integration von apache camel da kura nur iot gateway
+    * apache camel -> integration framework; kann viele verschieden technologien integrieren 
+    * camel + kura -> IoT integration basierend auf java (gateway + integration fraamework)
+  * node red -> nicht nur für entwickler, auch für personen mit "technischem" hintergrund (integration specialists and ciziten integrators); entwickeln in einer web-UI; schwerpunkt: integration on an IoT gateway; basiert auf node.js;
+  * flogo -> sehr junges integration framework für IoT (2016); entwickeln in einer web-UI; ähnlich zu node red (für entwickler und integration specialists); schwerpunkt: integration on an IoT gateway+very lightweight edge applications;
+
+– Which framework did you like best and why?
+  * node red
+    * übersichtliche
+	* wirkt auf mich optisch ansprechend
+    * leichte handhabung
+    * gute UI
+    * habe schon erfahrung damit
+	* einziger nachteil ist, dass es auf keinen kleinen devices läuft (zB kleiner als raspberry pi)
+	* gibt es schon einige zeit (damit sehr gute tutorials, hilfestellungen,...)
+	* trotzdem könnte man einen blick auf flogo werfen -> wirkt auch sehr ansprechend
+	
+---------
 
 # Session 5
 
@@ -129,14 +159,6 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 * Haben dann direkt mit unserem ersten Projekt angefangen. Haben gemeinsam beschlossen, dass wir einen Teil meiner Story (SmartHome Security) umsetzten. Wir machen eine kleine Alarmanlage, sobald jemand durch eine Lichtschranke geht wird der Alarm (LED+Buzzer) ausgelöst. Alarmanlage kann zusätzlich via TouchButton ein oder ausgeschalten werden.
 * Zusammenarbeit mit Paul hat wieder sehr gut funktioniert und auch so sind keine Probleme aufgetreten. Das Projekt ist bis jetzt wirklich interessant. Besonders das "herumprobieren" mit den einzelnen Sensoren und dann daraus die eigene Idee umsetzten. -> wirklich eine coole Sache 
 * Heute ist unser Tag wo wir sehr Vieles von dieser Woche aufholen wollen, also sitzen wir sicher noch eine Zeit -> Aber es macht zumindest Spaß. :-)
-
-noch zu erledigen: 
-
-HW, watch: https://www.youtube.com/watch?v=uOrLOgsCpNE and add to portfolio answers to:
-– What is fog computing.
-– What is the edge (regarding IoT)?
-– What are the different categories of the presented open source frameworks?
-– Which framework did you like best and why?
 
 ---------
 
