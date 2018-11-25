@@ -108,11 +108,14 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 
 ## Lecture 5
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_05.md
 
 ### Persönliche Eindrücke zur fünften Vorlesung:
 
-* warte auf upload der Vorlesung, da ich heute in der Vorlesung leider gefehlt habe
+* sehr gute vorlesung, nochmal einen besonderen dank an Ulrich Norbisrath für das überarbeiten und hochladen des videos der vorlesung (da ich an diesem tag nicht anwesend war, hat mit das video sehr geholfen und ich habe die vorlesung in "fast" vollen zügen genießen können)
+* einführung in node red -> sehr übersichtliches und einfach verständliches programm -> bietet alles was man braucht (bis jetzt)
+* die präsentation von herrn Dr. Ruben Jubeh war sehr interessant, da ich ebenfalls gerne mit lego mindstrom arbeite -> starkes interesse für robotik und die möglichkeiten die daraus resultieren
+* ulnoiot ist auch sehr leicht zu benutzen und macht bis jetzt einen sehr ordentlichen eindruck -> erste arbeiten damit bestätigt dies
 
 ## Exercise 5
 
