@@ -113,18 +113,18 @@ void loop(void)
   //Turn on laser
   digitalWrite(Laser_Pin, LOW);
 
+  int photoVal=digitalRead(Photo_Pin);
+  int photoResVal=analogRead(PhotoResistor_Pin);
+
+  //Serial.print("Photo interrupter: ");
+  //Serial.println(photoVal);
+
+  //Serial.print("Photo resistor: ");
+  //Serial.println(photoResVal);
+
   if (systemStatus == 1) {
-    int photoVal=digitalRead(Photo_Pin);
-    int photoResVal=analogRead(PhotoResistor_Pin);
-
-    //Serial.print("Photo interrupter: ");
-    //Serial.println(photoVal);
-
-    //Serial.print("Photo resistor: ");
-    //Serial.println(photoResVal);
-
     // If alarm detected
-    if (photoVal == 0 || photoResVal > 400) {
+    if (photoVal == 0 || photoResVal > 150) {
       if (alarm == 0) {
         alarm = 1;
         Serial.println("Sending alarm");
