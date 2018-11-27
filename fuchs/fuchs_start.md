@@ -160,6 +160,24 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 * Zusammenarbeit mit Paul hat wieder sehr gut funktioniert und auch so sind keine Probleme aufgetreten. Das Projekt ist bis jetzt wirklich interessant. Besonders das "herumprobieren" mit den einzelnen Sensoren und dann daraus die eigene Idee umsetzten. -> wirklich eine coole Sache 
 * Heute ist unser Tag wo wir sehr Vieles von dieser Woche aufholen wollen, also sitzen wir sicher noch eine Zeit -> Aber es macht zumindest Spaß. :-)
 
+Projekt 01: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj01/fuchs_schmutz_proj01.md
+
 ---------
 
+# Session 6
+
+## Lecture 6
+
+Protokoll: 
+
+### Persönliche Eindrücke zur sechsten Vorlesung:
+
+## Exercise 6
+
+Protokoll:
+
+### Persönliche Eindrücke zur sechsten Übung:
+
+
+---------
 
