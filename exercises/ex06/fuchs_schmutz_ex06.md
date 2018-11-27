@@ -2,7 +2,11 @@
 ### 27.11.2018
 
 ##### Lab Outline
-* TODO
+* Rebuild project 1 with UlnoIoT (completely in
+  hardware, when available)
+  * If device not supported, talk with me for
+    replacement
+  * Do at least one adoption process and document it
 
 ---
 
