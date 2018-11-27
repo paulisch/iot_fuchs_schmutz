@@ -90,8 +90,8 @@ return msg;
   * übersichtliches management (UI) -> ja (ulnoIoT local web portal)
   * gutes Hardware-management -> ja (node red)
   * einfache handhabung -> ja, sehr schnell umgesetzt
-  * guter support (tutorial, hilfestellungen, how-to,...) -> ?
-  * ressourcen schonend (z.B: hardwarevorraussetzungen für pc) -> ?
+  * guter support (tutorial, hilfestellungen, how-to,...) -> https://github.com/ulno/ulnoiot/blob/master/README.rst Es gibt ein GIT repository mit allen nötigen infos; zusätzlich noch ein forum https://riot.im/app/#/room/#ulnoiot:matrix.org (hier kann man alle möglichen fragen an leute stellen die sich ebenfalls mit UlnoIoT beschäftigen)
+  * ressourcen schonend (z.B: hardwarevorraussetzungen für pc) -> ja, ich denke schon
 
 
 
