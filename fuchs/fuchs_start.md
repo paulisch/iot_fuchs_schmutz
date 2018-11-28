@@ -172,7 +172,8 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lectu
 
 ### Persönliche Eindrücke zur sechsten Vorlesung:
 
-* 
+* UlnoIoT Live Demo -> war sehr hilfreich, habe es mit meinen Anforderungen an ein IoT framework vergleichen und UlnoIoT hat eigentlich fast alles abgedeckt (siehe lecture notes 5), man wird in der übung sehen wie mir UlnoIoT gefällt
+* Zusätzlich haben wir uns mit Sensing/Acting beschäftigt, ich habe mir schon vorher die meisten sensoren angeschaut, bzw. ermittelt was sie so alles können, war aber trotzdem sehr gut sich mal etwas genauer mit den einzelnen sensoren auseinanderzusetzen.
 
 
 ## Exercise 6
@@ -181,6 +182,33 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/e
 
 ### Persönliche Eindrücke zur sechsten Übung:
 
+* wir mussten das projekt01 mit ulnoIoT nachbilden. leider ist es bei uns hier zu erheblichen schwirigkeiten gekommen nachdem wir ulnoiot upgrade ausgeführt haben. Wie man dem Übungsprotokoll der Übung 6 entnehmen kann hatten wir viele Fehler beim compilieren. der erste teil (security devices) hat uns sehr viel zeit gekostet. aber sobald das ganze wieder funktioniert hat (durch hilfe von herrn prof. norbisrath), haben wir den zeiten teil (security monitor) schnell erledigen können.
+* node red war etwas komplexer als bei projekt01, wir mussten uns etwas spielen damit das ganze funktioniert, aber am ende war auch diese hürde überwunden. 
 
 ---------
+
+# Session 7
+
+## Lecture 7
+
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_07.md
+
+### Persönliche Eindrücke zur siebten Vorlesung:
+
+* primär ist es um die verwendung von UlnoIoT gegangen, auch hier ist wieder ersichtlich das ulnoIoT sehr leicht zu handhaben ist, wenn man nicht zu viele compile-fehler erhält, wie das leider bei uns der fall war.
+* nachdem dies aber behoben wurde, war es wirklich sehr angenehm mit ulnoIoT zu arbeiten. ein rießen vorteil ist, dass man hier devices mit genau einer kurzen line of code initialisieren kann und nicht umständlich nach funktionierenden libraries suchen und diesen dann integrieren muss.
+* platformIO war auch interessant, wir haben dieses thema zwar nur sehr kurz angeschnitten, aber ich werden mich sicher noch etwas genauer über platformIO informieren. 
+
+## Exercise 7
+
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj02/fuchs_schmutz_proj02.md
+
+### Persönliche Eindrücke zur siebten Übung:
+
+* wir haben wie bereits in übung 6 leider mit problemen bei ulnoIoT zu kämpfen. mussten dann auch raspberry und netzteil tauschen, da unser raspberry nicht mehr ging. 
+* übung 7(projekt 02) -> wir konnten alle nötigen sensoren implementieren und auf funktion prüfen, hat alles gut funktioniert.  
+
+---------
+
+
 
