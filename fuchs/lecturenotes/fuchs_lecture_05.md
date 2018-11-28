@@ -87,11 +87,13 @@ return msg;
 * Check covered features:
 
   * Betriebssystem und Hardware übergreifend -> ja
-  * übersichtliches management (UI) -> ja (ulnoIoT local web portal)
-  * gutes Hardware-management -> ja (node red)
-  * einfache handhabung -> ja, sehr schnell umgesetzt
+  * übersichtliches management (UI) -> ja (ulnoIoT local web portal) -> ordner struktur etwas unübersichtlich
+  * gutes device-management -> ja (node red)
+  * einfache handhabung -> ja, sehr schnell umgesetzt; installation ohne probleme; linux befehle etwas umständlich
   * guter support (tutorial, hilfestellungen, how-to,...) -> https://github.com/ulno/ulnoiot/blob/master/README.rst Es gibt ein GIT repository mit allen nötigen infos; zusätzlich noch ein forum https://riot.im/app/#/room/#ulnoiot:matrix.org (hier kann man alle möglichen fragen an leute stellen die sich ebenfalls mit UlnoIoT beschäftigen)
-  * ressourcen schonend (z.B: hardwarevorraussetzungen für pc) -> ja, ich denke schon
+  * ressourcen schonend (z.B: hardwarevorraussetzungen für pc) -> ja, ich denke schon; läuft auf raspberry
+  
+  83,4%-100%
 
 
 

@@ -168,13 +168,16 @@ Projekt 01: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/
 
 ## Lecture 6
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_06.md
 
 ### Persönliche Eindrücke zur sechsten Vorlesung:
 
+* 
+
+
 ## Exercise 6
 
-Protokoll:
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/ex06/fuchs_schmutz_ex06.md
 
 ### Persönliche Eindrücke zur sechsten Übung:
 
