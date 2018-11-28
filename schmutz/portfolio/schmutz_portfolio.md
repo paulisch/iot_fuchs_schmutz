@@ -280,3 +280,38 @@ TODO
 
 
 PS: You can find the exercise notes [here](../../exercises/ex06/fuchs_schmutz_ex06.md).
+
+
+
+
+
+# Session #07
+
+### 28.11.2018
+
+#### Lecture #07
+
+TODO
+
+
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture07.md).
+
+
+
+#### Exercise #07
+
+##### Lab Outline
+
+- TODO
+
+------
+
+TODO
+
+
+
+PS: You can find the exercise notes [here](../../exercises/ex07/fuchs_schmutz_ex07.md).
+
+
+
