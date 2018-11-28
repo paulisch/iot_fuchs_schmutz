@@ -100,7 +100,7 @@ input(alarm, D2, "0", "1");
 # Node Red
 * der rest wird mit node red abgebildet (siehe Abbildung)
 
-![noered](./img/node_red.png)
+![noered](./img/node_red.PNG)
 
 
 
