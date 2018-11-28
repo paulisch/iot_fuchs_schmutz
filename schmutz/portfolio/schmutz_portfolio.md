@@ -259,25 +259,21 @@ PS: You can find the project notes [here](../../exercises/proj01/fuchs_schmutz_p
 
 #### Lecture #06
 
-TODO
-
-
+Today's lecture was quite practical. I liked the live demo of UlnoIoT as we have to use it for the exercise as well. The structure of UlnoIoT is now getting clearer to me. On the one hand, I think it is great to have such a support tool for IoT, on the other hand however I think UlnoIoT is clearly not a standard and I might choose another platform when I am dealing with IoT in the future, as there is more support, tutorials and functions on other platforms. UlnoIoT is quite easy to use (at least it seems like it), but maybe it hides a bit of the real challenges to understand things well enough which could become difficult when changing from UlnoIoT to another more complex IoT framework.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture06.md).
-
-
 
 #### Exercise #06
 
 ##### Lab Outline
 
-- TODO
+- Rebuild project 1 with UlnoIoT (completely in hardware, when available)
+  - If device not supported, talk with me for replacement
+  - Do at least one adoption process and document it
 
 ------
 
-TODO
-
-
+Changing the project #01 from Arduino to UlnoIoT was kind of a disaster. Everything was hard at the beginning and development extremely slow. We had problems with hardware, using UlnoIoT, authentication errors, crashing Raspberry, errors when upgrading ulnoIoT, ... As you can imagine, this was very frustrating. Of course, in technical areas somehow every single time it is the same with trying something new: nothing works and you spend hours and hours. At the moment I am not happy with UlnoIoT but maybe it will get better and as I learn UlnoIoT I will become better at doing projects with that.
 
 PS: You can find the exercise notes [here](../../exercises/ex06/fuchs_schmutz_ex06.md).
 
@@ -291,15 +287,89 @@ PS: You can find the exercise notes [here](../../exercises/ex06/fuchs_schmutz_ex
 
 #### Lecture #07
 
-TODO
-
-
+I still don't like to "work" so much in lectures. Today was definitely such a day. Especially, if we have no idea of the topic. We had to "research" about UlnoIoT. It was still ok, but I would have preferred another tutorial-like lesson to get informed about the system and not dig in the header files our own. As we had to split up in teams delegating topics, not everybody will have the same knowledge as you have to get the research results of the others without really understanding what they found out and how they did that or where they looked it up. To my mind, a presentation about the new insights into UlnoIoT would be more suitable. So, everybody would have the same knowledge. However, it was still informative, although it was a bit too much information in this lecture to really absorb everything. I prefer lectures with less content, which I understand that lectures with lots of content, that I don't fully understand.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture07.md).
 
+#### Exercise #06
+
+##### Lab Outline
+
+- Rebuild project 1 with UlnoIoT (completely in hardware, when available)
+  - If device not supported, talk with me for replacement
+  - Do at least one adoption process and document it
+
+---
+
+As we wasted a lot of time already (and today again) Boris and I had to finish exercise 06 first. See session #06 above for problems. The code for the devices became much smaller now, obviously. That's the purpose of UlnoIoT. However, the node red part become pretty complex and error-prone. We were quite restricted with the possible nodes and mostly had to write custom functions which led to typos and so on. Finally, we got it running.
+
+PS: You can find the exercise notes [here](../../exercises/ex06/fuchs_schmutz_ex06.md).
+
+#### Project #02
+
+##### Lab Outline
+
+- Start project 2: measuring liquid (water and oil) challenge (acoustic distance, optical distance, weight, analog and binary conductive sensing)
+- Measuring liquid (water and oil) challenge (acoustic distance, optical distance, weight, conductive sensing, physical switches)
+  - Bring props: 3 bottles/containers (one for clear water, one with vegetable oil, one with dirty water), something to block lights in bottle, magnet, swimmer (cork?), scissors, glue, cardboard
+- For different liquid types (clear water, dirty, oil) and each measuring challenge build systems to measure series of data over time
+- Rate quality for that sensor for the specific liquid
+- Produce table and recommendation for use case
+- Scales stay in university
+
+------
+
+We started by trying different sensors. It was quite acceptable. Tomorrow we still have to check how some sensors work and deal with some fluids as well. All in all, we are making some progress.
+
+PS: You can find the project notes [here](../../exercises/proj02/fuchs_schmutz_proj02.md).
 
 
-#### Exercise #07
+
+
+
+# Session #08
+
+### 29.11.2018
+
+#### Lecture #08
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture08.md).
+
+#### Project #02
+
+##### Lab Outline
+
+- Start project 2: measuring liquid (water and oil) challenge (acoustic distance, optical distance, weight, analog and binary conductive sensing)
+- Measuring liquid (water and oil) challenge (acoustic distance, optical distance, weight, conductive sensing, physical switches)
+  - Bring props: 3 bottles/containers (one for clear water, one with vegetable oil, one with dirty water), something to block lights in bottle, magnet, swimmer (cork?), scissors, glue, cardboard
+- For different liquid types (clear water, dirty, oil) and each measuring challenge build systems to measure series of data over time
+- Rate quality for that sensor for the specific liquid
+- Produce table and recommendation for use case
+- Scales stay in university
+
+------
+
+TODO
+
+PS: You can find the exercise notes [here](../../exercises/proj02/fuchs_schmutz_proj02.md).
+
+
+
+
+
+# Session #09
+
+### 04.12.2018
+
+#### Lecture #09
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture09.md).
+
+#### Exercise #??
 
 ##### Lab Outline
 
@@ -309,9 +379,11 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture07.md).
 
 TODO
 
+PS: You can find the exercise notes [here](../../exercises/proj02/fuchs_schmutz_proj02.md).
 
 
-PS: You can find the exercise notes [here](../../exercises/ex07/fuchs_schmutz_ex07.md).
+
+
 
 
 
