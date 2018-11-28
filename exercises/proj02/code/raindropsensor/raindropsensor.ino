@@ -1,9 +1,12 @@
-void setup() {
-  // put your setup code here, to run once:
+int RainPin = A0;
 
+void setup() {
+  Serial.begin(115200);
+  pinMode(RainPin, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  int rainValue=analogRead(RainPin);
+  Serial.println(rainValue);
+  delay(200);
 }
