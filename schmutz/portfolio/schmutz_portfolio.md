@@ -333,7 +333,9 @@ PS: You can find the project notes [here](../../exercises/proj02/fuchs_schmutz_p
 
 #### Lecture #08
 
-TODO
+As there are millions of devices out there communicating over the Internet, security is a key point. That's why we covered the topic IoT and Security, or: The Internet Of Broken Things. It is remarkable, what security threats are out there and which attacks were already executed in the Internet. I liked the style of this lecture a lot which consisted of a mixture of lecturing and research/opinion finding. Also, it was quite fun to operate against you and convince you and two of our colleagues, that IoT is actually great. Of course we won, and convinced you. Victory!
+
+I found the lecture really interesting. What I 've missed a little bit was, how to secure systems practically. Maybe that will be covered later. However, I  know the theoretical concept of encryption, certificates and other countermeasures but I don't really know, how to do that in a real system. That point would definitely be interesting to me.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture08.md).
 
@@ -351,7 +353,7 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture08.md).
 
 ------
 
-TODO
+In the lab we continued testing sensors. This time we had different liquids like oil, cacao water and fresh water. Furthermore, we had swimming stuff and magnets with us. The scale was really exciting to test and calculate the amount of certain liquids by its weight. Unfortunately, we didn't manage to finish all thoughts on the boat liquids. That's why we have to finish that until next time. It's interesting work, but for us somehow a little bit too much work as we often have trouble with the technical devices. In my opinion the topic of measuring liquids on a boat is not quite the best use-case to work on in class. But nothing to worry, it is not bad either. I could not immediately think of another use-case with interesting (physical) content like that, so the idea is fine. Maybe you find an additional topic to work on with other classes.
 
 PS: You can find the exercise notes [here](../../exercises/proj02/fuchs_schmutz_proj02.md).
 
