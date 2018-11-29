@@ -62,15 +62,66 @@ Sollte nicht nass werden
 ![](./img/ultrasonic_sensor.jpg)
 
 
+### Waage
 
+esp8266 initialisiert -> anschluss waage an esp8266 
 
+setup.cpp -> hx711(weight, D6, D7, 419.0, true);
 
+fehler beim anschluss -> neu verkabelt -> jetzt kommen werte im serial monitor -> 85g bei 100g gewicht -> kalibrieren 
 
+über mgtt fx -> zuerst tare -> war falsch -> calfactor +25 -> falsch -> dann -25 -> mehrmals -22 -> -2; -1 -> 100,2 gramm
 
+![](./img/calibrating.png)
 
+![](./img/calibration2.png)
 
+messen des behälters -> 30,4g -> tare
 
+![](./img/tare_glass.png)
 
+messung wasser -> 161,5g (dichte von wasser 997 kg/m³) -> ausgerechnet 161,48 ml
+
+messung öl -> 143g (dichte von rapsöl 917 kg/m³) -> ausgerechnet 155,94 ml
+
+Kakao zur Simulation von Schmutzwasser
+messung Schmutzwasser -> 161,48 ml, 163,5g -> Dichte: 1012,5 kg/m³
+
+### measuring liquid
+
+versuchen den flüssigkeitsstand per ultrasonic-sensor und per magnetschalter (hall switch) zu messen
+
+#### ultrasonic-sensor
+
+Code: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj02/code/ultrasonicSensor/ultrasonicSensor.ino
+
+ultraschall sensor am oberen ende des bechers platziert (siehe foto)
+
+messung mit flüssigkei: 8 cm entfernung
+messung ohne flüssigkeit: 13 cm entfernung
+
+flüssigkeitsstand = 5 cm 
+
+problem hierbei ist das sich die flüssigkeit im tank eines schiffes sehr stark bewegt -> wert schwankt etwas, bei einem großen tank kommt man trotzdem auf einen halbwegs guten wert (zB durch bildung des mittelwertes alle 5 sekunden)
+zusätzlich darf der sensor nicht nass werden -> müsste an einer geeignete stelle platziert werden
+
+#### Hall switch
+
+Code: ./code/hallSwitch/hallSwitch.ino
+
+Bei Magnetfeld --> 0
+Normalzustand --> 1
+
+hat gut funktioniert -> man würde einen starken magneten brauchen -> sonst muss man sehr nahe an den behälter
+
+Anwendung:
+Hall Switch Sensoren außerhalb am Tank befestigen.
+Im Tank einen Schwimmer in einem Rohr platzieren, der einen Magneten trägt.
+Flüssigkeitsstand abschätzbar dadurch, welcher Sensor das Magnetfeld des Magneten misst.
+
+Mercury Switch:
+Liefert im "Normalzustand" bei Kontakt der Metallkugel 0
+Ist die Metallkugel nach außen gekippt, ergibt das eine 1
 
 
 
