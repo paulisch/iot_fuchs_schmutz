@@ -105,6 +105,8 @@ flüssigkeitsstand = 5 cm
 problem hierbei ist das sich die flüssigkeit im tank eines schiffes sehr stark bewegt -> wert schwankt etwas, bei einem großen tank kommt man trotzdem auf einen halbwegs guten wert (zB durch bildung des mittelwertes alle 5 sekunden)
 zusätzlich darf der sensor nicht nass werden -> müsste an einer geeignete stelle platziert werden
 
+option: wasserdichter ultraschall sensor -> 10 euro bei amazon
+
 #### Hall switch
 
 Code: ./code/hallSwitch/hallSwitch.ino
