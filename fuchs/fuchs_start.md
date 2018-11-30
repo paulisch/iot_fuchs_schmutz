@@ -210,5 +210,21 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ---------
 
+# Session 8
+
+## Lecture 8
+
+Protokoll: 
+
+### Persönliche Eindrücke zur achten Vorlesung:
+
+
+## Exercise 8
+
+Protokoll: 
+
+### Persönliche Eindrücke zur achten Übung:
+
+
 
 
