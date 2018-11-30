@@ -214,16 +214,33 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ## Lecture 8
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_08.md
 
 ### Persönliche Eindrücke zur achten Vorlesung:
+
+* Internet of Broken Things -> hat mit gut gefallen, mal den security aspekt zu besprechen. erstaunlich wie angreifbar manche systeme sind. besonders die lösungen auf diese probleme habe ich mitgenomen (wenn geht kabel verwenden; systeme trennen (Layered Architecture) -> krankenhausbeispiel; darauf achten das security standarts aktuell sind; ....)
+* Deauth Attack + Krack Attack -> sehr schnell umzusetzen, ohne großen aufwand. auch hier muss man schaun das man sein IoT system absichert. 
+* insgesamt wieder eine sehr informative vorlesung
 
 
 ## Exercise 8
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj02/fuchs_schmutz_proj02.md
 
 ### Persönliche Eindrücke zur achten Übung:
+
+* haben wieder an projekt 2 weiter gearbeitet. gestartet haben wir mit der waage, da gerade eine frei war -> die waage war sehr einfach zu handhaben, wir haben nur am anfang einen fehler in der verkabelung gemacht -> danach hat alles reibungslos funktioniert. auch die messungen waren sehr genau.
+* measuring liquid -> paul hat mehrere becher, ein kakaopulver, magneten, styroporschwimmer, korkschwimmer und einen bescher rapsöl mitgenommen. wir haben dann mit diesen utensilien unsere experimente aufgebaut. mithilfe des kakaopulver haben wir schmutziges wasser simuliert. ich habe dann mit dem ultraschall-sensor versucht den flüssigkeitsstand zu ermitteln, auch bei sich bewegendem wasser. Paul hat sich mit dem hall switch gearbeitet -> er hat einen magneten auf den styroporschwimmer geklebt und den hall switch außen an dem becher angebraucht. Beide methoden haben sehr gut funktioniert. ich habe dann noch etwas zu dem ultraschallsensor recherchiert -> es gibt um wenig geld wasserdichte ultraschall-sensor, sowas wäre zu empfehlen.
+* zusammenarbeit mit paul hat wie immer sehr gut funktioniert; bald startet projekt 3, wir sind schon gespannt wie die zusammenarbeit mit mehreren teams funktioniert.
+
+---------
+
+
+
+
+
+
+
 
 
 
