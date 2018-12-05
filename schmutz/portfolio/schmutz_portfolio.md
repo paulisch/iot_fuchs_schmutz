@@ -367,11 +367,53 @@ PS: You can find the exercise notes [here](../../exercises/proj02/fuchs_schmutz_
 
 #### Lecture #09
 
-TODO
+Although I dislike finally watching a video and then again take notes about it, I found it pretty cool this time. Today was about LORA. In order to learn about LORA we watched 2 videos  of an IOT youtuber from Switzerland, which was highly interesting! I guess the difference to watching videos in the lecture in my former school life was, that videos back then were not interesting and taking notes in addition to that was even worse. This time however, I liked the video and I found it useful to take notes.
+
+I think now I have a clue about what is going on when speaking from LORA.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture09.md).
 
-#### Exercise #??
+#### Exercise #09
+
+##### Lab Outline
+
+* LORA
+  – Setup Lora shield on Pi (careful!)
+  – Install and run example 3 from http://wiki.dragino.com/index.php?title=Lora/GPS_HAT
+  – Pair up with another team. Exchange messages (one direction per test, test both)
+  – Modify example to make single connections and support longer messages
+  – Integrate into node-red and be able to receive and send text messages there (use exec node and modify /etc/sudoers)
+  ● Try for (at least) 1.5 hours to setup either (document all problems!)
+  – TTN
+    ● Activate LORA/TTN connection on pi (single channel server)
+    ● Send from other pi something to TTN
+  – Lora Server
+    ● Setup the server
+    ● Send something from other pi to server
+
+------
+
+The lab today was not too exciting. Basically, we tried to set up LORA and communicate with other teams. In my opinion, LORA is bit error-prone and useful implementations are very rare (which makes it harder to create solutions for home use). Anyways, it is working quite well and as LORA is an essential part of IoT I want to be able to handle it.
+
+It probably takes some time but as soon as one can handle LORA perfectly you can create really cool and useful projects.
+
+PS: You can find the exercise notes [here](../../exercises/ex09/fuchs_schmutz_ex09.md).
+
+
+
+
+
+# Session #10
+
+### 06.12.2018
+
+#### Lecture #10
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture10.md).
+
+#### Exercise #10
 
 ##### Lab Outline
 
@@ -381,7 +423,13 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture09.md).
 
 TODO
 
-PS: You can find the exercise notes [here](../../exercises/proj02/fuchs_schmutz_proj02.md).
+PS: You can find the exercise notes [here](../../exercises/ex10/fuchs_schmutz_ex10.md).
+
+
+
+
+
+
 
 
 
