@@ -239,10 +239,13 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ## Lecture 9
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_09.md
 
 ### Persönliche Eindrücke zur neunten Vorlesung:
 
+* das erste video über LORA war sehr informativ, habe hier einige infos über LORA erhalten -> das zweite video war auch gut, aber nicht mehr ganz so informativ für mich
+* insgesamt eine gute vorlesung; durch das eigenständige arbeiten und suchen der informationen (LORA (after movie)), sind viele infos hängen geblieben
+* TTN war auch sehr interessant, vor allem der communit anspekt -> das man hier seine eigenen gateways zur ünterstützung bereitstellen kann. 
 
 ## Exercise 9
 
