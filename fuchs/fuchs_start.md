@@ -275,8 +275,8 @@ Protokoll:
 ### Persönliche Eindrücke zur zehnten Übung:
 
 * haben schnelle eine gruppe gefunden, sind 6 personen. bin mit der teamzusammenstellung zufrieden. haben dann besprochen was wir als projekt umsetzen möchten, sind uns auch hier sehr schnell einig geworden. wir machen ein smart home mir verschiedensten komponenten (security, haustiere, medien,....)
-* sobald wir uns auf das thema geeinigt haben, haben wir angefangen gemeinsam an einem dokument (themnfindung; sensoren/aktoren; Rollen; szenario ) zu arbeiten wo wir die grundlegende struktur des projektes festlegen, jeder kann hier seine ideen einbringen. wir werden in der nächsten übung entscheiden welche sensoren/themen wirklich umgesetzt werden. wir werden auch lego für den prototyp verwenden.
-* im anschluss haben ich und paul noch kurz den lowpowermode umgesetzt -> hat alles gut funktioniert
+* sobald wir uns auf das thema geeinigt haben, haben wir angefangen gemeinsam an einem dokument (themnfindung; sensoren/aktoren; Rollen; szenario ) zu arbeiten wo wir die grundlegende struktur des projektes festlegen -> jeder kann hier seine ideen einbringen. Auch eine whatsapp gruppe wurde angelegt. wir werden in der nächsten übung entscheiden welche sensoren/themen wirklich umgesetzt werden. wir werden auch lego für den prototyp verwenden.
+* im anschluss haben ich und paul noch kurz den lowpowermode umgesetzt -> hat alles halbwegs funktioniert -> mehrere kleinere probleme haben zu zeitverzögerung geführt(siehe protokll)
 
 ---------
 
