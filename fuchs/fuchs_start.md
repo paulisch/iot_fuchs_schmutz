@@ -235,9 +235,50 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ---------
 
+# Session 9
+
+## Lecture 9
+
+Protokoll: 
+
+### Persönliche Eindrücke zur neunten Vorlesung:
 
 
+## Exercise 9
 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/ex09/fuchs_schmutz_ex09.md
+
+### Persönliche Eindrücke zur neunten Übung:
+
+* heute haben wir uns mit LORA beschäftigt, das implementieren von LORA war sehr einfach und hat gut funktioniert. haben dann nachrichten gesendet und enpfangen. die integration in node red war etwas komplizierter, hat dann aber mit dr hilfe von markus und tobias auch gut funktioniert.
+* danach haben wir noch versucht den LORA Server zu implementieren, dies ist uns leider in der restlichen zeit nicht mehr gelungen. wir waren aber auf einem guten weg und ich denke wir hätten auch das umsetzen können
+* zusammenarbeit mit anderen gruppen hat sehr gut funktioniert
+
+---------
+
+# Session 10
+
+## Lecture 10
+
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_10.md
+
+### Persönliche Eindrücke zur zehnten Vorlesung:
+
+* heute wurde fast ausschließlich über das letzte projekt gesprochen, inkl. einiger beispiele die sehr interessant waren. die große led-wand wo man sein bild anzeigen lassen kann hat mir gefallen -> tolle idee und umsetzung.
+* die grunsätzlichen rahmenbedingungen des letzten projektes waren gut verständlich und hilfreich
+* auch das powermanagement wurde am anfang kurz besprochen -> verknüpfung mit projekt
+
+## Exercise 10
+
+Protokoll: 
+
+### Persönliche Eindrücke zur zehnten Übung:
+
+* haben schnelle eine gruppe gefunden, sind 6 personen. bin mit der teamzusammenstellung zufrieden. haben dann besprochen was wir als projekt umsetzen möchten, sind uns auch hier sehr schnell einig geworden. wir machen ein smart home mir verschiedensten komponenten (security, haustiere, medien,....)
+* sobald wir uns auf das thema geeinigt haben, haben wir angefangen gemeinsam an einem dokument (themnfindung; sensoren/aktoren; Rollen; szenario ) zu arbeiten wo wir die grundlegende struktur des projektes festlegen, jeder kann hier seine ideen einbringen. wir werden in der nächsten übung entscheiden welche sensoren/themen wirklich umgesetzt werden. wir werden auch lego für den prototyp verwenden.
+* im anschluss haben ich und paul noch kurz den lowpowermode umgesetzt -> hat alles gut funktioniert
+
+---------
 
 
 
