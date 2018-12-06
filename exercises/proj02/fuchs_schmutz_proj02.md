@@ -163,14 +163,20 @@ Könnte dazu verwendet werden, um festzustellen, in welche Richtung das Boot/Sch
 
 Rating: \* bis \*\*\*\*\*, wobei mehr Sterne eine bessere Bewertung bedeuten
 
-|                                     | Wasser                                                       | Abfallwasser                                                 | Treibstoff                                                   |
-| ----------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Raindrop Sensor                     | möglich, jedoch<br/>durch Schwanken<br/>des Boots<br/>Sensor schlägt aus und<br/>braucht Zeit damit<br/>Werte sich "erholen"</br>\*\* | möglich, jedoch<br/>durch Schwanken
+|                                     | Wasser                                                       | Abwasser                                                     | Treibstoff                                                   |
+| ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Raindrop Sensor                     | möglich, jedoch<br/>durch Schwanken
+des Boots
+Sensor schlägt aus und
+braucht Zeit damit
+Werte sich "erholen"</br>\*\* | möglich, jedoch<br/>durch Schwanken
 des Boots
 Sensor schlägt aus und
 braucht Zeit damit
 Werte sich "erholen"</br>\*\* | nicht geeignet,<br/>kein Wasser</br>                         |
-| Time of flight sensor<br/>(optisch) | geeignet, mit Schwimmer (Ziel)<br/>und transparenter<br/>Schutzabdeckung</br>\*\*\*\* | eher ungeeignet wegen<br/>Schmutzpartikel (könnte<br/>Sensor abdecken)</br>\* | geeignet, mit Schwimmer (Ziel)<br/>und transparenter
+| Time of flight sensor<br/>(optisch) | geeignet, mit Schwimmer (Ziel)<br/>und transparenter
+Schutzabdeckung</br>\*\*\*\* | eher ungeeignet wegen<br/>Schmutzpartikel (könnte
+Sensor abdecken)</br>\* | geeignet, mit Schwimmer (Ziel)<br/>und transparenter
 Schutzabdeckung</br>\*\*\*\* |
 | Ultrasonic sensor<br/>(akustisch)   | geeignet, wenn wasserdicht/Schutz</br>\*\*\*\*\*             | eher ungeeignet wegen<br/>Schmutzpartikel (könnte
 Sensor abdecken)</br>\* | geeignet, wenn Schutz vorhanden</br>\*\*\*\*\*               |
