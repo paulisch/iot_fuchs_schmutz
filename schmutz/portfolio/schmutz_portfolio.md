@@ -409,11 +409,56 @@ PS: You can find the exercise notes [here](../../exercises/ex09/fuchs_schmutz_ex
 
 #### Lecture #10
 
-TODO
+As lectures are often diverse, it was an interesting session again today. It is remarkable which projects you are/were working on and where you travel to achieve that. Your demonstration shows that there are endless possibilities in IoT. On the one hand, there are great IoT applications and on the other hand there are "just" IoT applications. When it comes to art, I don't really get the point. Building a remote for power point presentations is fine. However, it is just unnecessary to put electronic devices on trees and connect them with each other or doing weird plasma performances. I also don't get the idea of Hammock and Hairpiece, but that's fine. I think when it comes to IoT, everybody has his/her own expectations and I think one should do what he/she thinks is good to do.
+
+To sum it up, there are great opportunities in IoT and that's what you definitely showed us today.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture10.md).
 
 #### Exercise #10
+
+##### Lab Outline
+
+- Build temperature power- management sensor
+  with ulnoiot
+- Finish LORA experiments from last lab
+- Build team with 4-8 persons (take time to match)
+  * If you are more than 5 persons, elect a leader (product
+    owner) and a logistics master (scrum master)
+  * present ideas/scenarios to each other
+- Design scenario(s) and ideas for project 3
+
+------
+
+Team building:
+
+* Boris Fuchs & Paul Schmutz
+* Annika Seibezeder & Simon Angerbauer
+* Roman Socovka & David Mitterlehner
+
+Boris and I quickly found two teams having similar interests and so we can combine that to an idea for a Smart Home System (see the exercise notes for [details](../../exercises/ex10/fuchs_schmutz_ex10.md)).
+
+The second part of the lab was to implement the power management for ESP8266. It was hard to dive in again, as we had our usual problems using UlnoIoT (like strange compile errors, ulnoiot upgrade went wrong, resetting  and plugging on/off ESP8266 multiple times to make it work). After that we finally managed to implement it. I think that you can easily integrate that into a UlnoIoT project. I guess it's just us who are not used to properly handle UlnoIoT.
+
+In the exercise notes you can find, what we as team have done today. There is a main Google Doc we are working on constantly: https://docs.google.com/document/d/1clOaLvnObF7xb4quhJDqLjVOhUlx8wYoteGtU5CIqnE
+
+PS: You can find the exercise notes [here](../../exercises/ex10/fuchs_schmutz_ex10.md).
+
+
+
+
+
+# Session #11
+
+### 10.12.2018
+
+#### Lecture #11
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture11.md).
+
+#### Exercise #11
 
 ##### Lab Outline
 
@@ -423,13 +468,33 @@ PS: You can find the lecture notes [here](../lecturenotes/lecture10.md).
 
 TODO
 
-PS: You can find the exercise notes [here](../../exercises/ex10/fuchs_schmutz_ex10.md).
+PS: You can find the exercise notes [here](../../exercises/ex11/fuchs_schmutz_ex11.md).
 
 
 
 
 
+# Session #12
 
+### 11.12.2018
+
+#### Lecture #12
+
+TODO
+
+PS: You can find the lecture notes [here](../lecturenotes/lecture12.md).
+
+#### Exercise #12
+
+##### Lab Outline
+
+- TODO
+
+------
+
+TODO
+
+PS: You can find the exercise notes [here](../../exercises/ex12/fuchs_schmutz_ex12.md).
 
 
 
