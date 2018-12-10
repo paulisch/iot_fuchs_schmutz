@@ -454,21 +454,19 @@ PS: You can find the exercise notes [here](../../exercises/ex10/fuchs_schmutz_ex
 
 #### Lecture #11
 
-TODO
+Almost all lectures were held now. I feel like with the lectures ending I also stopped progressing concerning my knowledge in IoT. In most recent times we didn't really learn any critical new technologies. We now focus on building more complex solutions within the frame of project 3. As we have learned quite a lot until now, that's totally fine. However, I would be interested in more technologies, frameworks, devices and so on. Just to have further information. It does not need to be in-depth but just mentioned as I find IoT really interesting also for home use. In my opinion, we could have spent time for some more topics rather than working on another project.
+
+Furthermore, today's video conference was strange somehow. I didn't really expect that. Also, there was not much time to prepare questions as I have no idea about that people (not even after some research). To be honest, I was not too interested in doing that anyway. Possibly, it works better when we have to prepare questions at least one day before the conference and after you present and introduces the guys of the conference beforehand.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture11.md).
 
 #### Exercise #11
 
-##### Lab Outline
+##### Proj03
 
-- TODO
+I get along well with the other team members. Today we did some more story writing and assigning tasks for everybody. We finally finished the story and agreed on doing a video of real-life scenario rather than Lego. I didn't get a lot of work done for the implementation, today, but at least we have arranged everything to do so, which is not too easy in a group of 6 members.
 
-------
-
-TODO
-
-PS: You can find the exercise notes [here](../../exercises/ex11/fuchs_schmutz_ex11.md).
+PS: You can find the exercise notes [here](../../exercises/proj03/schmutz_proj03.md).
 
 
 
