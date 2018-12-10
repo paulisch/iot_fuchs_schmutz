@@ -162,37 +162,22 @@ Könnte dazu verwendet werden, um festzustellen, in welche Richtung das Boot/Sch
 ### Vergleich und Rating
 
 Rating: \* bis \*\*\*\*\*, wobei mehr Sterne eine bessere Bewertung bedeuten
-
-|                                     | Wasser                                                       | Abwasser                                                     | Treibstoff                                                   |
-| ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Raindrop Sensor                     | möglich, jedoch<br/>durch Schwanken
-des Boots
-Sensor schlägt aus und
-braucht Zeit damit
-Werte sich "erholen"</br>\*\* | möglich, jedoch<br/>durch Schwanken
-des Boots
-Sensor schlägt aus und
-braucht Zeit damit
-Werte sich "erholen"</br>\*\* | nicht geeignet,<br/>kein Wasser</br>                         |
-| Time of flight sensor<br/>(optisch) | geeignet, mit Schwimmer (Ziel)<br/>und transparenter
-Schutzabdeckung</br>\*\*\*\* | eher ungeeignet wegen<br/>Schmutzpartikel (könnte
-Sensor abdecken)</br>\* | geeignet, mit Schwimmer (Ziel)<br/>und transparenter
-Schutzabdeckung</br>\*\*\*\* |
-| Ultrasonic sensor<br/>(akustisch)   | geeignet, wenn wasserdicht/Schutz</br>\*\*\*\*\*             | eher ungeeignet wegen<br/>Schmutzpartikel (könnte
-Sensor abdecken)</br>\* | geeignet, wenn Schutz vorhanden</br>\*\*\*\*\*               |
-| Scale                               | geeignet (Dichte bekannt)</br>\*\*\*                         | eingeschränkt geeignet (Dichte kann variieren)</br>\*\*      | geeignet (Dichte bekannt)</br>\*\*\*                         |
-| Hall switch (Magnetfeld)            | geeignet, jedoch mehrere Sensoren notwendig</br>\*\*\*\*     | geeignet, jedoch mehrere Sensoren notwendig</br>\*\*\*\*     | geeignet, jedoch mehrere Sensoren notwendig</br>\*\*\*\*     |
-| Mercury Switch                      | geeignet um                                                  | Neigung des Boots                                            | festzustellen                                                |
-
-
+|      |  Wasser    |  Abwasser    |  Treibstoff   |
+| ---- | ---- | ---- | ---- |
+|   Raindrop Sensor   |  möglich, jedoch durch Schwanken des Boots Sensor schlägt aus und braucht Zeit damit Werte sich "erholen"  \*\*  | möglich, jedoch durch Schwanken des Boots Sensor schlägt aus und braucht Zeit damit Werte sich "erholen"\*\*      | nicht geeignet, kein Wasser     |
+| Time of flight sensor (optisch) | geeignet, mit Schwimmer (Ziel) und transparenter Schutzabdeckung \*\*\*\* | eher ungeeignet wegen Schmutzpartikel (könnte Sensor abdecken) \*  | geeignet, mit Schwimmer (Ziel) und transparenter Schutzabdeckung \*\*\*\* |
+|Ultrasonic sensor (akustisch) |geeignet, wenn wasserdicht/Schutz \*\*\*\*\* | eher ungeeignet wegen Schmutzpartikel (könnte Sensor abdecken) \* | geeignet, wenn Schutz vorhanden \*\*\*\*\* |
+| Scale | geeignet (Dichte bekannt) \*\*\* | eingeschränkt geeignet (Dichte kann variieren) \*\* | geeignet (Dichte bekannt) \*\*\* |
+| Hall switch (Magnetfeld) | geeignet, jedoch mehrere Sensoren notwendig \*\*\*\* | geeignet, jedoch mehrere Sensoren notwendig \*\*\*\* | geeignet, jedoch mehrere Sensoren notwendig \*\*\*\* |
+| Mercury Switch | geeignet um | Neigung des Boots | festzustellen |
 
 ### Empfehlung
 
 ##### Wasser
 
-Am einfachsten ist die Verwendung eines Ultraschallsensors. Davon wird ein wasserdichtes Modell gewählt. Der Sensor wird oben am Tank platziert und nach unten ausgerichtet. Optional kann eine Waage unter demTank installiert werden.
+Am einfachsten ist die Verwendung eines Ultraschallsensors. Davon wird ein wasserdichtes Modell gewählt. Der Sensor wird oben am Tank platziert und nach unten ausgerichtet. Optional kann eine Waage unter dem Tank installiert werden.
 
-##### Abfallwasser
+##### Abwasser
 
 Für Abfallwasser können außen am Tank mehrere Hall switch Sensoren in verschiedenen Höhen angebracht werden. Im Inneren des Tanks wird an der Seite der Sensoren ein Rohr angebracht. In diesem Rohr befindet sich ein Schwimmer mit einem Magneten, der dem Flüssigkeitsstand des Tanks entsprechend folgt. Das Rohr und der Tank sollten nicht aus magnetischen Materialen bestehen, damit eine Messung möglich ist. Überschreitet der Schwimmer einen bestimmten Sensor, so weiß man den geschätzen Flüssigkeitsstand.
 
