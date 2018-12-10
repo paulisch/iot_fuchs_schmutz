@@ -15,13 +15,13 @@ https://igostartup.com/blog/574-how-to-build-a-successful-iot-startup
 
 Failed Ideas: 
 1. BuddyGuard
-2. RainMachine (automatic sprinklers)
-3. Valarm (vineyard monitoring)
 
 Three implemented successful business ideas:
 1. Toymail Toys
 2. Farmhub
 3. Vital Herd
+4. RainMachine (automatic sprinklers)
+5. Valarm (vineyard monitoring)
 
 
 Challenges:
@@ -88,6 +88,7 @@ In time until then, google (and check LinkedIn)
 
 ### For each (lecture notes)
 – 3 IoT domains they are influencing
+  * Daniel: engineer in telecommunications
 – 2 projects they were involved in
 – 2 current projects they are involved in
 – 2 points on their impact on startups

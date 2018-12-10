@@ -277,8 +277,8 @@ Protokoll:
 
 ### Persönliche Eindrücke zur zehnten Übung:
 
-* haben schnelle eine gruppe gefunden, sind 6 personen. bin mit der teamzusammenstellung zufrieden. haben dann besprochen was wir als projekt umsetzen möchten, sind uns auch hier sehr schnell einig geworden. wir machen ein smart home mir verschiedensten komponenten (security, haustiere, medien,....)
-* sobald wir uns auf das thema geeinigt haben, haben wir angefangen gemeinsam an einem dokument (themnfindung; sensoren/aktoren; Rollen; szenario ) zu arbeiten wo wir die grundlegende struktur des projektes festlegen -> jeder kann hier seine ideen einbringen. Auch eine whatsapp gruppe wurde angelegt. wir werden in der nächsten übung entscheiden welche sensoren/themen wirklich umgesetzt werden. wir werden auch lego für den prototyp verwenden.
+* haben schnell eine gruppe gefunden, sind 6 personen. bin mit der teamzusammenstellung zufrieden. haben dann besprochen was wir als projekt umsetzen möchten, sind uns auch hier sehr schnell einig geworden. wir machen ein smart home mir verschiedensten komponenten (security, haustiere, medien,....)
+* sobald wir uns auf das thema geeinigt haben, haben wir angefangen gemeinsam an einem dokument (themenfindung; sensoren/aktoren; Rollen; szenario ) zu arbeiten wo wir die grundlegende struktur des projektes festlegen -> jeder kann hier seine ideen einbringen. Auch eine whatsapp gruppe wurde angelegt. wir werden in der nächsten übung entscheiden welche sensoren/themen wirklich umgesetzt werden. wir werden auch lego für den prototyp verwenden.
 * im anschluss haben ich und paul noch kurz den lowpowermode umgesetzt -> hat alles halbwegs funktioniert -> mehrere kleinere probleme haben zu zeitverzögerung geführt(siehe protokll)
 
 ---------
@@ -291,12 +291,18 @@ Protokoll:
 
 ### Persönliche Eindrücke zur elften Vorlesung:
 
+* erster teil sehr interessant (Business Opportunities in IoT) -> vielfalt an ideen bezüglich IoT -> wie werden diese umgestetzt; motiviert selber etwas zu machen
+* zweiter teil (External Speakers): warte auf upload video
 
 ## Exercise 11
 
 Protokoll: 
 
 ### Persönliche Eindrücke zur elften Übung:
+
+* gliederung und einteiling von pro3. jeder hat seine aufgabe erhalten (trello board). meine aufgabe ist das umsetzten der security-kamera. da ich das selbe bei mir zuhause auch umsetzten will, bin ich schon gespannt wie das alles funktioniert.
+* 
+
 
 ---------
 
