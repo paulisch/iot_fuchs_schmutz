@@ -12,17 +12,26 @@ Leitfaden: https://docs.google.com/document/d/1clOaLvnObF7xb4quhJDqLjVOhUlx8wYot
 
 
 
-Thema dieses Protokolls: **Katzenklappe**
+Thema dieses Protokolls: **Katzenklappe, Wecker-Lampe**
 
 Benötigte Sensoren/Aktoren:
+
+Für die Katzenklappe:
 
 * Hall Switch
 * Magnet
 * Servo-Motor (Tower Pro SG90)
 
+
+
+Für die Wecker-Lampe:
+
+* RGB LED
+* Android App mit für den Wecker (Roman)
+
 Person(en): Paul Schmutz
 
-#### Vorgehensweise
+#### Vorgehensweise Catdoor
 
 1. Upgrade für UlnoIoT durchführen
 
@@ -87,7 +96,15 @@ Aufbau:
 
 
 
+Aufbau anhand: http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
+
+
+
 Mit MQTT.fx werden nun Testnachrichten gesendet. Bei Aufruf vom Topic "catdoor/catmotor/set" wird der Motor gedreht. Das simuliert das Öffnen/Schließen des Schlosses der Katzenklappe (zB ein Riegel).
+
+
+
+Der Motor wurde in der Übung am 11.12.2018 noch ausgetauscht durch einen "normalen" Motor. Der ursprünglich verwendete Motor war "gehackt" und 360° drehfähig. Dies wird nun durch den regulären Motor ersetzt durch eine Drehung um -90° bzw. +90°, um das Ver- und Entriegeln der Katzenklappe zu simulieren.
 
 
 
@@ -117,19 +134,47 @@ Der Gesamtaufbau in Hardware sieht nun so aus:
 
 ![](./img/catdoor_hardware.jpg)
 
-#### Use Case
+##### Use Case
 
 Wie in der obigen Abbildung zu sehen ist, soll das System einen Anwendungsfall für die Katzenklappe realiseren. Die Katzenklappe ist von innen nach außen immer offen, d. h. Katzen können immer durch die Katzenklappe aus dem Haus gelangen. Von außen nach innen ist die Katzenklappe zugesperrt mithilfe eines Riegels, der durch den Motor gesteuert werden kann. Die Katzen sind mit einem Magnet am Halsband ausgestattet. Nähert die Katze sich der Katzenklappe, so wird der Magnet vom Hall Switch (dieser ist an der Katzenklappe angebracht) detektiert. Daraufhin wird über MQTT der Motor angesteuert und die Klappe entriegelt. Die Klappe ist nun für 10 Sekunden geöffnet. Die Katze kann somit ins Haus gelangen und nach 10 Sekunden wird die Klappe wieder verriegelt.
 
 
 
+#### Vorgehensweise Wecker-Lampe
+
+1. Wemos initialisieren
+
+~~~
+clockled$ initialize serial
+~~~
+
+2. setup.cpp bearbeiten und LED einrichten
+
+~~~C++
+rgb_single(rgb, D0, D1, D2, true);
+~~~
+
+true...invertieren, da die LED invertiert ist
+
+3. Deploy
+
+~~~
+deploy
+~~~
+
+
+
+Mit den MQTT Topics clockled/rgb/rgb/set und Payload "r,g,b" [0-255] kann die Farbe gesetzt werden. Mit clockled/rgb/brightness/set und Payload "[0-255]" die Helligkeit.
+
+
+
 #### Source code
 
-Siehe Source [Code Verzeichnis](./code/proj03_smart_home/catdoor).
+Siehe Source [Code Verzeichnis](./code/proj03_smart_home).
 
 #### NodeRED
 
-Siehe [Node RED Export](./code/node_red/smart_home_catdoor.json)
+Siehe [Node RED Exports](./code/node_red)
 
 #### Videos
 

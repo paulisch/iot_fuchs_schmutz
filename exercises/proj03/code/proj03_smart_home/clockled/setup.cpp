@@ -1,0 +1,1 @@
+rgb_single(rgb, D0, D1, D2, true);
