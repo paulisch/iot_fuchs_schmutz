@@ -296,7 +296,7 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lectu
 
 ## Exercise 11
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj03/fuchs_proj03.md
 
 ### Persönliche Eindrücke zur elften Übung:
 
@@ -311,16 +311,22 @@ Protokoll:
 
 ## Lecture 12
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_12.md
 
-### Persönliche Eindrücke zur zwölf Vorlesung:
+### Persönliche Eindrücke zur zwölften Vorlesung:
 
+* sehr interessant fand ich das thema Heartbeat Monitoring of Network Nodes -> habe dazu mehrere verschieden definitionen gefunden (sogar von IBM -> heartbear monitoring) -> war aber alles etwas unterschiedlich
+* auch die IoT Success Stories haben mich beeindruckt, da die 3 betrachteten firmen in österreich entwickelt wurden, abgesehen von Runtastic agieren diese weitestgehend im hintergund (man bekommt nicht viel mit von ihnen)
+* Connect to/from Outside -> konnte ich nicht so viel mitnehmen, da das thema sehr schnell durchgenommen wurde. Stand-Up Meeting hat mir spaß gemacht, es war jeder bei der sache und hat seinen fortschritt erläutert
 
 ## Exercise 12
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/proj03/fuchs_proj03.md
 
-### Persönliche Eindrücke zur zwölf Übung:
+### Persönliche Eindrücke zur zwölften Übung:
+
+* ich habe mich nun intensiv mit der raspberry kamera beschäftigt. habe erfolgreich motionEyeOS implementiert -> 
+
 
 ---------
 
