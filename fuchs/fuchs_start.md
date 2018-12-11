@@ -328,7 +328,7 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 * ich habe mich nun intensiv mit der raspberry kamera beschäftigt. habe erfolgreich motionEyeOS implementiert -> dann erste tests gemacht, funktioniert super. mit der webUI kann man sehr viele optionen setzten. 
 * dann habe ich versucht das ganze mit node red zu verbinden -> hat nicht gut funktioniert -> habe dann den prof. gefragt und er hat mir so einiges gezeigt (via git bash) -> dann ist alles sehr schnell gegangen ;-) 
-*  
+* war noch länger damit beschäftigt das protokoll zu schreiben
 
 
 ---------
