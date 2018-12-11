@@ -287,7 +287,7 @@ Protokoll:
 
 ## Lecture 11
 
-Protokoll: 
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_11.md
 
 ### Persönliche Eindrücke zur elften Vorlesung:
 
@@ -301,7 +301,7 @@ Protokoll:
 ### Persönliche Eindrücke zur elften Übung:
 
 * gliederung und einteiling von pro3. jeder hat seine aufgabe erhalten (trello board). meine aufgabe ist das umsetzten der security-kamera. da ich das selbe bei mir zuhause auch umsetzten will, bin ich schon gespannt wie das alles funktioniert.
-* 
+* rechere zu motionEyeOS, habe zuhause noch ein magazin gefunden wo motionEyeOS implementiert wird, werde nächste Übung versuchen dies umzusetzen
 
 
 ---------
