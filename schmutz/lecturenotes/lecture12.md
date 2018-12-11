@@ -51,7 +51,7 @@ First step for predictive maintenance --> watch all nodes sending status message
 
 #### IoT Success Stories
 
-##### Loxone
+##### Loxone (me)
 
 * What is their relation to IoT (2 impacted domains)?
   * Loxone is a smart home solution
@@ -65,7 +65,7 @@ Why? => Were one of the first in Upper Austria
 
 Key product: Loxone server (can speak to many types of systems)
 
-##### Runtastic
+##### Runtastic (Anika)
 ###### What is their relation to IoT (2 impacted domains)
 * fitness
 * wearables
@@ -78,7 +78,7 @@ Key product: Loxone server (can speak to many types of systems)
 ###### Are they successful in the IoT, why or why not?
 * not really, they removed their wearables
 
-##### Nymea
+##### Nymea (Boris)
 
 * What is their relation to IoT (2 impacted domains)
   * nymea is an industrial-level operating system for connected things; The IoT operating system for connected things
