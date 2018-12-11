@@ -478,25 +478,30 @@ PS: You can find the exercise notes [here](../../exercises/proj03/schmutz_proj03
 
 #### Lecture #12
 
-TODO
+The last lecture has come. Today I was really motivated and found the topic highly interesting. Maintenance in IoT is essential and we got some insights in theoretical principles. That's exactly what I requested in the last entry from session #11: To learn more areas of IoT but not too much in-depth.
+
+All in all the last lecture was enjoyable and relaxing while learning something new.
 
 PS: You can find the lecture notes [here](../lecturenotes/lecture12.md).
 
 #### Exercise #12
 
-##### Lab Outline
+Team work on project 03 again was good. Everyone seems to take his or her tasks seriously and is working on them.
 
-- TODO
+My tasks for today were finishing the cat door implementation by using a "normal" motor for the Wemos. Furthermore, I implemented the RGB LED in ulnoiot for the simulation of the light going on when stopping the alarm clock. Roman is coding an Android app for controlling that (and many other areas of the project) via MQTT.
 
-------
+Later this day, I also shot the video for the catdoor part of the project. Some more story-writing was required, which I did partly for the catdoor part and entirely for the thief part.
 
-TODO
+As we need someone speaking in the video, I volunteered and began to do the first recordings.
 
-PS: You can find the exercise notes [here](../../exercises/ex12/fuchs_schmutz_ex12.md).
+So far, everything runs smoothly and I hope I will finish my tasks by tomorrow evening. Of course, there will still be work left, as we have to hold the presentation next week and there are adjustments to make.
 
-
-
-
+PS: You can find the exercise notes [here](../../exercises/proj03/schmutz_proj03.md).
 
 
 
+
+
+## Final words
+
+To wrap it up, compared to other lectures, IoT definitely was something different (in a positive way), as there are not tons of learning materials as in pretty much every other course. So, I could actually follow, what's happening. Maybe, in IoT I learned less that in other courses. However, that's not something negative. I have the feeling, that I actually remember a lot and know how to do things properly compared to other subjects which I didn't understand that well due to excessive work loads. Although I was scared of the way of lecturing and was not happy in all lectures, IoT was a very positive experience in my education.
