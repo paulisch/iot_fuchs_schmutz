@@ -29,7 +29,17 @@
  
 ### verknüpfung mit node red oder mqtt
  * versuche mit node red zu verbinden -> laut den entwicklern von MotionEyeOS ist dies nicht unterstützt, man musste dies selber im sourcecode implementieren
- * versuche push-benachrichtigung zu senden 
+
+ * motion notification über 192.168.12.20 -> erster versuch ist über Call A Web Hook -> Web Hook URL -> e.g. http://example.com/notify/ -> HTTP Method (GET)
+![](./img/motionnotification.PNG)
+
+ * in node red einen "http in" node angelegt
+![](./img/nodeRedHTTPnode.PNG)
+ 
+ * dann bei motioneyeos https://192.168.12.1/nodered/testcam -> geht nicht -> wahrscheinlich wegen https und passwort -> prof. fragen -> wir gehn über git bash in den pi
+
+ 
+Bild im Browser aufmachen: http://192.168.12.20/picture/1/preview/2018-12-11/15-04-39.jpg
   
   
  

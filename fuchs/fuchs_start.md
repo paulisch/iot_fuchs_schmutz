@@ -318,6 +318,7 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lectu
 * sehr interessant fand ich das thema Heartbeat Monitoring of Network Nodes -> habe dazu mehrere verschieden definitionen gefunden (sogar von IBM -> heartbear monitoring) -> war aber alles etwas unterschiedlich
 * auch die IoT Success Stories haben mich beeindruckt, da die 3 betrachteten firmen in österreich entwickelt wurden, abgesehen von Runtastic agieren diese weitestgehend im hintergund (man bekommt nicht viel mit von ihnen)
 * Connect to/from Outside -> konnte ich nicht so viel mitnehmen, da das thema sehr schnell durchgenommen wurde. Stand-Up Meeting hat mir spaß gemacht, es war jeder bei der sache und hat seinen fortschritt erläutert
+* in summe war die vorlesung gut, leider wurden die themen etwas schnell durchgenommen, da uns 25 min vom vortag fehlten
 
 ## Exercise 12
 
@@ -325,7 +326,9 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ### Persönliche Eindrücke zur zwölften Übung:
 
-* ich habe mich nun intensiv mit der raspberry kamera beschäftigt. habe erfolgreich motionEyeOS implementiert -> 
+* ich habe mich nun intensiv mit der raspberry kamera beschäftigt. habe erfolgreich motionEyeOS implementiert -> dann erste tests gemacht, funktioniert super. mit der webUI kann man sehr viele optionen setzten. 
+* dann habe ich versucht das ganze mit node red zu verbinden -> hat nicht gut funktioniert -> habe dann den prof. gefragt und er hat mir so einiges gezeigt (via git bash) -> dann ist alles sehr schnell gegangen ;-) 
+*  
 
 
 ---------
