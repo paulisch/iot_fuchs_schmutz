@@ -140,6 +140,12 @@ Wie in der obigen Abbildung zu sehen ist, soll das System einen Anwendungsfall f
 
 
 
+In echter Umgebung sieht das folgendermaßen aus:
+
+![](./img/catdoor_real.jpg)
+
+
+
 #### Vorgehensweise Wecker-Lampe
 
 1. Wemos initialisieren
@@ -176,7 +182,11 @@ Siehe Source [Code Verzeichnis](./code/proj03_smart_home).
 
 Siehe [Node RED Exports](./code/node_red)
 
-#### Videos
+#### Media
+
+Nach der Implementierung meiner zugewiesenen Tasks, stellte ich das Videomaterial für die Szene mit der **Katzenklappe** bereit.
+
+Weiters habe ich die Übersetzung für den **Erzähler-Text** sowie das Sprechen und Aufnehmen des Texts übernommen. Text siehe [hier](./media/audio/Sprecher_Text.odt).
 
 Rohmaterial unter: https://drive.google.com/open?id=10DHWuZlNED0WJXQR2nqwjLXLMhILBoDt
 
