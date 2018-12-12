@@ -6,15 +6,15 @@
 ### WLAN verbindung vorbereiten -> https://github.com/ccrisan/motioneyeos/wiki/Wifi-Preconfiguration
  * erstellen von wpa_supplicant.conf
  * einfügen des code:
-    
+   
 		country=AT
-        update_config=1
-        ctrl_interface=/var/run/wpa_supplicant    
-        network={
-            scan_ssid=1
-            ssid="MyWiFiSSID"
-            psk="S3cr3tp@$$w0rc|"
-        }
+    ​    update_config=1
+    ​    ctrl_interface=/var/run/wpa_supplicant    
+    ​    network={
+    ​        scan_ssid=1
+    ​        ssid="MyWiFiSSID"
+    ​        psk="S3cr3tp@$$w0rc|"
+    ​    }
 ### MotionEyeOS starten
  * sd karte in raspberry -> starten des Raspberry
  * finde raspbery nicht -> ändern der network einstellungen auf: network: scan_ssid=1; ssid="dirtyfox"; psk="fuchsschmutz"
@@ -26,7 +26,7 @@
  * tausch des raspberry pi 1 auf einen raspberry pi 3 -> da dieser ein wlan modul integriert hat
  * hat jetzt funktioniert -> motionOS läuft unter 192.168.12.20
 ![](./img/motioneyeos.PNG)
- 
+
 ### verknüpfung mit node red oder mqtt
 * versuche mit node red zu verbinden -> laut den entwicklern von MotionEyeOS ist dies nicht unterstützt, man musste dies selber im sourcecode implementieren
 
@@ -35,7 +35,7 @@
 
 * in node red einen "http in" node angelegt
 ![](./img/nodeRedHTTPnode.PNG)
- 
+
 * dann bei motioneyeos https://192.168.12.1/nodered/testcam -> geht nicht -> wahrscheinlich wegen https und passwort -> prof. fragen -> wir gehn über git bash in den pi
 * login bei dem motionOS pi -> git bash ->  ssh pi@192.168.12.20 -> geht nicht, das passwort ist nicht bekannt, kein login möglich
 ![](./img/GITbash01.PNG)
@@ -59,19 +59,19 @@
 
   * report@ulnoiotgw:~/.ssh $ chmod 600 authorized_keys
   * report@ulnoiotgw:~/.ssh $ logout
- 
+
 ##### History:
 
 [root@meye-811b25c4 ~]# history
-    1  apt
-    2  pacman
-    3  dpkg
-    4  echo $PATH
-    5  ssh
-    6  ssh ulnoiot@192.168.12.1
-    7  ssh-keygen
-    8  mount
-    9  mount -o remount,rw /
+​    1  apt
+​    2  pacman
+​    3  dpkg
+​    4  echo $PATH
+​    5  ssh
+​    6  ssh ulnoiot@192.168.12.1
+​    7  ssh-keygen
+​    8  mount
+​    9  mount -o remount,rw /
    10  ssh-keygen
    11  cat .ssh/id_rsa.pub
    12  ssh ulnoiot@192.168.12.1
@@ -85,15 +85,15 @@
 ### Abschlussarbeiten:
   * ssh report@192.168.12.1 mosquitto_pub -h localhost -t cam -m motion  -> wird bei motioneyeos in der webUI unter "motion notification -> Run A Command" eingefügt 
   * jetzt im node red einen mqtt node angelelegt -> mit topic "cam" und einem debug node 
-![](./img/nodeRedMQTTnode.PNG)
+  ![](./img/nodeRedMQTTnode.PNG)
   * dann noch eine motion detection in der motioneyeos webUI eingefügt (damit die kamera auf bewegung reagiert) -> apply
   * versuch die hand vor die kamera zu halten -> funktioniert
-![](./img/motionDetection.PNG) 
+  ![](./img/motionDetection.PNG) 
   * jz noch versucht über die punkte "file storage" und "still images" ein foto auzunehmen und zu speichern -> funktioniert -> habe noch zusätzlich WinSCP heruntergeladen um manuel auf das filesyste zuzugreifen
-![](./img/motionCapture01.PNG) 
-![](./img/motionCapture02.PNG) 
+  ![](./img/motionCapture01.jpg) 
+  ![](./img/motionCapture02.jpg) 
   * die URL zu den fotos oder videos suchen (auch für livestream) -> Bild im Browser aufmachen: http://192.168.12.20/picture/1/preview/2018-12-11/15-04-39.jpg -> finden des livestreams
+
   
-  
- 
+
  
