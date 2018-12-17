@@ -292,7 +292,7 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lectu
 ### Persönliche Eindrücke zur elften Vorlesung:
 
 * erster teil sehr interessant (Business Opportunities in IoT) -> vielfalt an ideen bezüglich IoT -> wie werden diese umgestetzt; motiviert selber etwas zu machen
-* zweiter teil (External Speakers): warte auf upload video
+* zweiter teil (External Speakers), etwas langwierig
 
 ## Exercise 11
 

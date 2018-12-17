@@ -1,5 +1,7 @@
 # Raspberry PI Kamera mit MotionEyeOS
 
+![](./img/raspberry_cam.jpg)
+
 ### laden und einrichten von MotionEyeOS
  * Download Image -> https://github.com/ccrisan/motioneyeos/releases
  * image auf sd karte -> mit etcher
@@ -15,6 +17,8 @@
     ​        ssid="MyWiFiSSID"
     ​        psk="S3cr3tp@$$w0rc|"
     ​    }
+![](./img/bildschirm.jpg)
+	
 ### MotionEyeOS starten
  * sd karte in raspberry -> starten des Raspberry
  * finde raspbery nicht -> ändern der network einstellungen auf: network: scan_ssid=1; ssid="dirtyfox"; psk="fuchsschmutz"
