@@ -191,3 +191,7 @@ Weiters habe ich die Übersetzung für den **Erzähler-Text** sowie das Sprechen
 Rohmaterial von Video und Audio unter: https://drive.google.com/open?id=10DHWuZlNED0WJXQR2nqwjLXLMhILBoDt
 
 Folien für die Präsentation: https://docs.google.com/presentation/d/1v0V9SePKOd0H1CGaCHZMs_VDuehRpZWENDShHaICCyI/edit
+
+#### Globale Dokumentation
+
+Ein Leitfaden durchs gesamte Projekt befindet sich in [folgender Datei](./project_notes.md).
