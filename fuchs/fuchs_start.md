@@ -332,13 +332,17 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 
 ---------
 
-Protokoll Session 13: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_13.md
+# Session 13
+
+Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/fuchs/lecturenotes/fuchs_lecture_13.md
 
 Notenvergaben: 
 1 smart nursing home
 2 Cultus 
 3 INSTOCK 
 4 Smart Zoo
+
+---------
 
 # Zusammenfassung
 
