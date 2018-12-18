@@ -1,4 +1,4 @@
-# Cultus -> smart toilet (note 1)
+# Cultus -> smart toilet (note 2)
 
 Pro
 * statistiken abrufbar  -> sehr schönes interface
@@ -12,7 +12,7 @@ Con
 * komponeneten die in öffentlichen toiletten sind sollten alle wasserfest und diebstahlsicher sein -> umsetzung wird teuer
 
 
-# smart nursing home (note 2)
+# smart nursing home (note 1)
 
 Pro
 * sehr lustiges video -> top
