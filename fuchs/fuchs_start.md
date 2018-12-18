@@ -330,8 +330,22 @@ Protokoll: https://github.com/paulisch/iot_fuchs_schmutz/blob/master/exercises/p
 * dann habe ich versucht das ganze mit node red zu verbinden -> hat nicht gut funktioniert -> habe dann den prof. gefragt und er hat mir so einiges gezeigt (via git bash) -> dann ist alles sehr schnell gegangen ;-) 
 * war noch länger damit beschäftigt das protokoll zu schreiben
 
-
 ---------
+
+Protokoll Session 13: 
+
+Notenvergaben:
+
+# Zusammenfassung
+
+Was hat mir gefallen:
+insgesamt hat mir dieses fach wirklich spaß gemacht, ich konnte sehr viel über IoT und den Raspberry Pi inkl. Sensoren lernen. Ich bin froh, dass wir noch ein fach hatten wo wir den raspberry umfangreich testen und selber etwas bauen.
+auch der IoT teil war informativ, node red und ulnoIoT ist sehr leicht zu handhaben und ich kann gut damit umgehen. eigene projekte umzusetzen ist, finde ich, eine sehr gute variante des lernens. 
+
+Was hat mir nicht so gefallen:
+etwas weniger schreibarbeit wäre toll, ich finde es war eine spur zuviel. die internet recherchen waren zu häufig, mir wäre lieber gewesen wenn es etwas weniger sind, dafür gründlicher. dadurch habe ich einige themen nur oberflächlich betrachten können. Ansonsten war alles top, besonders ihr engagement und ihre begeisterung für das thema haben mich immer wieder motiviert. 
+
+
 
 
 
